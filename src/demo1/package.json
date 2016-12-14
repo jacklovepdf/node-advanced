@@ -1,0 +1,27 @@
+{
+  "name": "demo1",
+  "version": "1.0.0",
+  "description": "node demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacklovepdf/node-learn.git"
+  },
+  "keywords": [
+    "images",
+    "upload"
+  ],
+  "author": "jacklovepdf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacklovepdf/node-learn/issues"
+  },
+  "homepage": "https://github.com/jacklovepdf/node-learn#readme",
+  "dependencies": {
+    "formidable": "^1.0.17"
+  }
+}
