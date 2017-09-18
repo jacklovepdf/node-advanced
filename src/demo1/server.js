@@ -5,9 +5,13 @@
 //构建基础服务器
 var http = require("http");
 var url = require("url");
-
-function start(route, handle) {
-    function onRequest(request, response) {
+/*
+* 基础服务器模块，主要负责创建一个http服务器
+*参数route：路由器模块，
+* 参数handle：请求处理模块
+* */
+function start(route, handle, port) {//高阶函数
+    function onRequest(request, response) {//回调函数
         var postData = "";
         var pathname = url.parse(request.url).pathname;
         request.addListener("data", function (dataChunk) {
@@ -19,7 +23,10 @@ function start(route, handle) {
             console.log("postdata received finish!");
         });
     }
-    http.createServer(onRequest).listen(8081);
-    console.log("Server has started.");
+    if(typeof port !== "number"){
+        port = 8081;
+    }
+    http.createServer(onRequest).listen(port);//闭包
+    console.log("Server has started at port: " + port);
 }
 exports.start = start;

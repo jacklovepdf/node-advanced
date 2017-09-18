@@ -1,3 +1,10 @@
+// 引入依赖
+var express = require('express');
+var superagent = require('superagent');
+var cheerio = require('cheerio');
+// 建立 express 实例
+var app = express();
+
 app.get('/', function (req, res, next) {
     // 用 superagent 去抓取 https://cnodejs.org/ 的内容
     superagent.get('https://cnodejs.org/')
@@ -21,4 +28,7 @@ app.get('/', function (req, res, next) {
 
             res.send(items);
         });
+});
+app.listen(3000, function (req, res) {
+    console.log('app is running at port 3000');
 });

@@ -56,19 +56,10 @@ function show(response) {
         }
     });
 }
-exports.start = start;
-exports.upload = upload;
-exports.show = show;
 
-/*
-exports.handle = {
-    '/start': function () {
-        console.log('Request handler start was called');
-    },
-    '/upload': function () {
-        console.log('Request handler upload was called');
-    },
-    '/': function () {
-        console.log('Request handler start was called');
-    }
-};*/
+exports.handler = {
+    "/": start,
+    "/start": start,
+    "/upload": upload,
+    "/show": show
+};
