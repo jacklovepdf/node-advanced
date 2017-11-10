@@ -1,0 +1,20 @@
+{
+  "name": "lesson6",
+  "version": "1.0.0",
+  "description": "use eventproxy",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "eventproxy"
+  ],
+  "author": "jacklovepdf",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "eventproxy": "^1.0.0",
+    "express": "^4.15.4",
+    "superagent": "^3.6.0"
+  }
+}

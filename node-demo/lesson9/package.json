@@ -1,0 +1,17 @@
+{
+  "name": "lesson9",
+  "version": "1.0.0",
+  "description": "浏览器端测试：mocha，chai，phantomjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha-phantomjs ./Vendor/index.html --ssl-protocol=any --ignore-ssl-errors=true"
+  },
+  "author": "jacklovepdf",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha-phantomjs": "^4.1.0"
+  },
+  "dependencies": {
+    "chai": "^4.1.2"
+  }
+}

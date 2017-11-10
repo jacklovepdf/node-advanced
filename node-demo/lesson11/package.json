@@ -1,0 +1,14 @@
+{
+  "name": "lesson11",
+  "version": "1.0.0",
+  "description": "benchamark",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "jacklovepdf",
+  "license": "MIT",
+  "dependencies": {
+    "benchmark": "^2.1.4"
+  }
+}

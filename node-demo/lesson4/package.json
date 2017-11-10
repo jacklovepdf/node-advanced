@@ -1,0 +1,14 @@
+{
+  "name": "lesson4",
+  "version": "1.0.0",
+  "description": "the first demo to learn alsotang",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "jacklovepdf",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}

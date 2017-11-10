@@ -1,0 +1,24 @@
+{
+  "name": "lesson10",
+  "version": "1.0.0",
+  "description": "supertest",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "test-cov": "istanbul cover _mocha"
+  },
+  "keywords": [
+    "supertest"
+  ],
+  "author": "jacklovepdf",
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^3.5.3",
+    "should": "^13.0.1",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}

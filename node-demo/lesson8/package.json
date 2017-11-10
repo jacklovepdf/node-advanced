@@ -1,0 +1,16 @@
+{
+  "name": "lesson8",
+  "version": "1.0.0",
+  "description": "mocha should istanbul",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "jacklovepdf",
+  "license": "MIT",
+  "dependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^3.5.3",
+    "should": "^13.0.1"
+  }
+}
