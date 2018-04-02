@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2f29e02-d7d9-4af5-a4d4-324143fac27a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node-primer/README.md" afterPath="$PROJECT_DIR$/node-primer/README.md" />
     </list>
     <ignored path="node-learn.iws" />
@@ -74,8 +75,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="268">
-                <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <first_editor relative-caret-position="313">
+                <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -432,12 +433,12 @@
       <workItem from="1505353428063" duration="18299000" />
       <workItem from="1505483532104" duration="9097000" />
       <workItem from="1510234955865" duration="4342000" />
-      <workItem from="1522657149266" duration="2927000" />
+      <workItem from="1522657149266" duration="3100000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91415000" />
+    <option name="totallyTimeSpent" value="91588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="35" width="1440" height="797" extended-state="0" />
@@ -886,8 +887,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="268">
-            <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <first_editor relative-caret-position="313">
+            <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
