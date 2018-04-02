@@ -16,7 +16,7 @@ function start(route, handle, port) {//高阶函数
         var postData = "";
         var pathname = url.parse(request.url).pathname;
         request.addListener("data", function (dataChunk) {
-            postData = postData + dataChunk;
+            postData = postData + dataChunk; //内存字符串
             console.log("postdata received!");
         });
         request.addListener("end", function () {
@@ -25,7 +25,7 @@ function start(route, handle, port) {//高阶函数
         });
     }
     if(typeof port !== "number"){
-        port = 8081;
+        port = 8000;
     }
     http.createServer(onRequest).listen(port);//闭包
     console.log("Server has started at port: " + port);

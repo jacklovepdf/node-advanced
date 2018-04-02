@@ -5,7 +5,7 @@ some basic concept and practice of node, review now!
 ## Table of Contents
 
 - [Architecture for simple node applications](#arch-simple-node-app)
-- [Variable Scope](#variable-scope)
+- [Event loop and EventEmitter](#event-loop-event-emitter)
 - [Working with Functions](#working-with-functions)
 - [Object and Prototype](#object-and-prototype)
 - [Arrays and Dictionary](#arrays-and-dictionary)
@@ -125,3 +125,84 @@ exports.handler = {
 ```
 > **Note**: 划分模块的时候，尽量保证模块中高内聚，模块间松耦合；提高模块的可复用性，以及整个项目的可读性和可维护性；
 nodejs是单线程的，它通过事件循环来实现并行操作；
+
+<sup>[(back to table of contents)](#arch-simple-node-app)</sup>
+
+
+## Event loop and EventEmitter
+
+1. 事件循环
+    Node.js 的每一个 API 都是异步的，并作为一个独立线程运行，使用异步函数调用，并处理并发。js 基本上所有的事件机制都是用设计模式中观察者模式实现。
+    Node.js 单线程类似进入一个while(true)的事件循环，直到没有事件观察者退出，每个异步事件都生成一个事件观察者，如果有事件发生就调用该回调函数.
+
+<img src="./images/eventEmitter.png" height="300">
+
+```javascript
+    // 引入 events 模块
+    var events = require('events');
+    // 创建 eventEmitter 对象
+    var eventEmitter = new events.EventEmitter();
+    
+    // 创建事件处理程序
+    var connectHandler = function connected() {
+       console.log('连接成功。');
+       // 触发 data_received 事件 
+       eventEmitter.emit('data_received');
+    }
+    
+    // 绑定 connection 事件处理程序
+    eventEmitter.on('connection', connectHandler);
+     
+    // 使用匿名函数绑定 data_received 事件
+    eventEmitter.on('data_received', function(){
+       console.log('数据接收成功。');
+    });
+    
+    // 触发 connection 事件 
+    eventEmitter.emit('connection');
+    console.log("程序执行完毕。");
+```
+
+2. about EventEmitter
+    
+    Node.js 所有的异步 I/O 操作在完成时都会发送一个事件到事件队列。Node.js里面的许多对象都会分发事件：一个net.Server对象会在每次有新连接时分发一个事件， 
+    一个fs.readStream对象会在文件被打开的时候发出一个事件。 所有这些产生事件的对象都是 events.EventEmitter 的实例。
+
+<table>
+        <tr>
+            <th>addListener(event, listener)</th>
+            <th>设备文件名</th>
+        </tr>
+        <tr>
+            <th>on(event, listener)</th>
+            <th>/dev/stdin</th>
+        </tr>
+        <tr>
+            <th>once(event, listener)</th>
+            <th>/dev/stdout</th>
+        </tr>
+        <tr>
+            <th>removeListener(event, listener)</th>
+            <th>/dev/stderr</th>
+        </tr>
+        <tr>
+            <th>removeListener(event, listener)</th>
+            <th>/dev/stderr</th>
+        </tr>
+        <tr>
+            <th>removeAllListeners([event])</th>
+            <th>/dev/stderr</th>
+        </tr>
+        <tr>
+            <th>setMaxListeners(n)</th>
+            <th>/dev/stderr</th>
+        </tr>
+        <tr>
+            <th>listeners(event)</th>
+            <th>/dev/stderr</th>
+        </tr>
+        <tr>
+            <th>emit(event, [arg1], [arg2], [...])</th>
+            <th>/dev/stderr</th>
+        </tr>
+    </table>
