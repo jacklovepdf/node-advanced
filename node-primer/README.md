@@ -23,7 +23,7 @@ node本质是运行时环境(runtime)和库的集合；
 因此nodejs的本质是一个运行时环境，使得js能够在服务器端解释执行，同时也是一个js库,里面封装了一些常用的功能。
 
 
-2 a simple node app
+2 a architecture of simple node app
 
 (1) node应用的不同模块
 
@@ -125,14 +125,3 @@ exports.handler = {
 ```
 > **Note**: 划分模块的时候，尽量保证模块中高内聚，模块间松耦合；提高模块的可复用性，以及整个项目的可读性和可维护性；
 nodejs是单线程的，它通过事件循环来实现并行操作；
-
-
-
-
-```bash
-    .
-    ├── README.md
-    ├── index.js 入口文件
-    ├── server.js 基础服务器文件
-    └── router.js 路由模块文件
-```
