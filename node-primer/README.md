@@ -85,13 +85,44 @@ exports.route = route;
     对请求作出响应；请求处理程序中不要进行耗时的阻塞操作，对于阻塞操作，通过回调的方式来执行；handle(response);
 
 ```javascript
-
-
+function start(response, request) {
+    console.log("Request handler 'start' was called.");
+    var body = '<html>'+
+        '<head>'+
+        '<meta http-equiv="Content-Type" '+
+        'content="text/html; charset=UTF-8" />'+
+        '</head>'+
+        '<body>'+
+        '<form action="/upload" enctype="multipart/form-data" '+
+        'method="post">'+
+        '<input type="file" name="upload">'+
+        '<input type="submit" value="Upload file" />'+
+        '</form>'+
+        '</body>'+
+        '</html>';
+    response.writeHead(200, {"Content-Type": "text/html"});
+    response.write(body);
+    response.end();
+}
+exports.handler = {
+    "/": start,
+    "/start": start
+}
 ```
 (4) 视图--views.js
-对不同的请求作出响应的时候，大部分情况下，需要把内容展示出来，此时请求处理程序可能需要调用视图
-来生成对应的展示；
 
+    对不同的请求作出响应的时候，大部分情况下，需要把内容展示出来，此时请求处理程序可能需要调用视图来生成对应的展示；
+
+
+```bash
+    .
+    ├─- README.md
+    ├── index.js 入口文件
+    ├── server.js 基础服务器文件
+    └── router.js 路由模块文件
+    |__ viwes 视图模块
+    |__ requestHandler 请求处理模块
+```
 > **Note**: 划分模块的时候，尽量保证模块中高内聚，模块间松耦合；提高模块的可复用性，以及整个项目的可读性和可维护性；
 nodejs是单线程的，它通过事件循环来实现并行操作；
 
