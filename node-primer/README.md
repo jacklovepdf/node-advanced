@@ -32,26 +32,62 @@ node本质是运行时环境(runtime)和库的集合；
 (2) http服务器--server.js提供web页面；
 
 ```javascript
-    start(handle, route){ //闭包，高阶函数
-        http.CreateServer(function(req,res){    
-            var pathname = url.parse(request.url).pathname; 
-            route(handle, pathname/req, response); 
-        }).listen(8888);
+
+function start(route, handle, port) {//高阶函数
+    function onRequest(request, response) {//回调函数
+
+        var postData = "";
+        var pathname = url.parse(request.url).pathname;
+        request.addListener("data", function (dataChunk) {
+            postData = postData + dataChunk;
+            console.log("postdata received!");
+        });
+        request.addListener("end", function () {
+            //路由，根据请求的路径和方法，调用不同的请求处理函数；
+            route(handle, pathname, response, request);
+            console.log("postdata received finish!");
+        });
     }
-    exports.start = start;
+    if(typeof port !== "number"){
+        port = 8081;
+    }
+    http.createServer(onRequest).listen(port);//闭包
+    console.log("Server has started at port: " + port);
+}
+exports.start = start;
+
 ```
 
-创建一个监听8888端口的http服务器，并且向创建它的方法传递了一个函数（这个函数就是回调函数），无论何时当服务器收到一个请求，这个函数就会被调用来处理请求。nodejs是基于事件驱动的，任何时候有相应事件发生的时用这个函数来进行回调。
+> **Note**: 无论何时当服务器收到一个请求，onRequest回调函数就会被调用来处理请求。nodejs是基于事件驱动的，任何时候有相应事件发生的时调用这个回调函数。
 
 (2) 路由--routes.js
-根据不同的请求调用不同的请求处理程序；
-router(handle, pathname, response);
+
+    根据请求路径不同调用不同的请求处理程序；router(handle, pathname, response);
+    
+```javascript
+function route(handle, pathname, response, request) {
+    console.log("about a route request for"+ pathname);
+    if(typeof handle[pathname] === "function"){
+        handle[pathname](response, request);
+    }else {
+        console.log("No request handle found for" + pathname);
+        response.writeHead(404, {"Content-Type": "text/plain"});
+        response.write("404 Not Found");
+        response.end();
+    }
+}
+
+exports.route = route;
+```
 
 (3) 请求处理程序--requestHandler.js
-对请求作出响应；
-请求处理程序中不要进行耗时的阻塞操作，对于阻塞操作，通过回调的方式来执行；
-handle(response);
 
+    对请求作出响应；请求处理程序中不要进行耗时的阻塞操作，对于阻塞操作，通过回调的方式来执行；handle(response);
+
+```javascript
+
+
+```
 (4) 视图--views.js
 对不同的请求作出响应的时候，大部分情况下，需要把内容展示出来，此时请求处理程序可能需要调用视图
 来生成对应的展示；
