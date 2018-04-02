@@ -2,10 +2,886 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2f29e02-d7d9-4af5-a4d4-324143fac27a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node-demo/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node-primer/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo1/case.html" afterPath="$PROJECT_DIR$/node-primer/nodeApp/case.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo1/index.js" afterPath="$PROJECT_DIR$/node-primer/nodeApp/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo1/node_modules/formidable/.npmignore" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/formidable/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo1/node_modules/formidable/.travis.yml" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/nth-check/.travis.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo1/node_modules/formidable/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/formidable/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo1/node_modules/formidable/Readme.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/formidable/Readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo1/node_modules/formidable/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/formidable/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo1/node_modules/formidable/lib/file.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/formidable/lib/file.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo1/node_modules/formidable/lib/incoming_form.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/formidable/lib/incoming_form.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo1/node_modules/formidable/lib/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/formidable/lib/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo1/node_modules/formidable/lib/json_parser.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/formidable/lib/json_parser.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo1/node_modules/formidable/lib/multipart_parser.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/formidable/lib/multipart_parser.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo1/node_modules/formidable/lib/octet_parser.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/formidable/lib/octet_parser.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo1/node_modules/formidable/lib/querystring_parser.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/formidable/lib/querystring_parser.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo1/node_modules/formidable/package.json" afterPath="$PROJECT_DIR$/node-primer/nodeApp/node_modules/formidable/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo1/package.json" afterPath="$PROJECT_DIR$/node-primer/nodeApp/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo1/requestHandlers.js" afterPath="$PROJECT_DIR$/node-primer/nodeApp/requestHandlers.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo1/router.js" afterPath="$PROJECT_DIR$/node-primer/nodeApp/router.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo1/server.js" afterPath="$PROJECT_DIR$/node-primer/nodeApp/server.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/app.js" afterPath="$PROJECT_DIR$/node-primer/utility/app.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/.bin/mime" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/.bin/mime" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/accepts/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/accepts/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/accepts/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/mime-types/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/accepts/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/accepts/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/accepts/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/accepts/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/accepts/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/accepts/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/array-flatten/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/path-to-regexp/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/array-flatten/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/array-flatten/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/array-flatten/array-flatten.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/array-flatten/array-flatten.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/array-flatten/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/array-flatten/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/content-disposition/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/content-disposition/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/content-disposition/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/media-typer/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/content-disposition/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/content-disposition/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/content-disposition/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/content-disposition/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/content-disposition/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/content-disposition/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/content-type/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/content-type/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/content-type/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/content-type/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/content-type/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/content-type/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/content-type/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/content-type/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/content-type/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/content-type/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/cookie-signature/.npmignore" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/cookie-signature/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/cookie-signature/History.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/cookie-signature/History.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/cookie-signature/Readme.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/cookie-signature/Readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/cookie-signature/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/cookie-signature/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/cookie-signature/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/cookie-signature/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/cookie/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/cookie/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/cookie/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/cookie/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/cookie/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/cookie/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/cookie/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/cookie/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/cookie/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/cookie/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/copy-to/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/copy-to/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/copy-to/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/copy-to/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/copy-to/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/copy-to/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/debug/.jshintrc" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/debug/.jshintrc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/debug/.npmignore" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/debug/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/debug/History.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/debug/History.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/debug/Makefile" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/debug/Makefile" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/debug/Readme.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/debug/Readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/debug/bower.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/debug/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/debug/browser.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/debug/browser.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/debug/component.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/debug/component.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/debug/debug.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/debug/debug.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/debug/node.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/debug/node.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/debug/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/depd/History.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/depd/History.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/depd/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/vary/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/depd/Readme.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/depd/Readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/depd/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/depd/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/depd/lib/browser/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/depd/lib/browser/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/depd/lib/compat/buffer-concat.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/depd/lib/compat/buffer-concat.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/depd/lib/compat/callsite-tostring.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/depd/lib/compat/callsite-tostring.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/depd/lib/compat/event-listener-count.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/depd/lib/compat/event-listener-count.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/depd/lib/compat/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/depd/lib/compat/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/depd/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/depd/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/destroy/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/mime-db/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/destroy/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/destroy/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/destroy/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/destroy/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/destroy/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/destroy/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/ee-first/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/ee-first/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/ee-first/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/ee-first/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/ee-first/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/ee-first/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/ee-first/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/ee-first/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/encodeurl/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/encodeurl/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/encodeurl/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/encodeurl/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/encodeurl/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/encodeurl/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/encodeurl/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/encodeurl/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/encodeurl/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/encodeurl/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/escape-html/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/escape-html/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/escape-html/Readme.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/escape-html/Readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/escape-html/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/escape-html/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/escape-html/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/escape-html/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/etag/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/etag/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/etag/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/etag/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/etag/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/etag/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/etag/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/etag/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/etag/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/etag/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/express/History.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/express/History.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/express/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/express/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/express/Readme.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/express/Readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/express/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/express/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/express/lib/application.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/express/lib/application.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/express/lib/express.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/express/lib/express.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/express/lib/middleware/init.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/express/lib/middleware/init.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/express/lib/middleware/query.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/express/lib/middleware/query.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/express/lib/request.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/express/lib/request.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/express/lib/response.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/express/lib/response.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/express/lib/router/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/express/lib/router/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/express/lib/router/layer.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/express/lib/router/layer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/express/lib/router/route.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/express/lib/router/route.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/express/lib/utils.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/express/lib/utils.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/express/lib/view.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/express/lib/view.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/express/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/express/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/finalhandler/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/finalhandler/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/finalhandler/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/finalhandler/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/finalhandler/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/finalhandler/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/finalhandler/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/finalhandler/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/finalhandler/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/finalhandler/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/forwarded/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/forwarded/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/forwarded/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/forwarded/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/forwarded/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/forwarded/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/forwarded/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/forwarded/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/forwarded/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/forwarded/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/fresh/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/fresh/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/fresh/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/fresh/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/fresh/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/fresh/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/fresh/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/fresh/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/fresh/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/fresh/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/http-errors/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/http-errors/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/http-errors/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/statuses/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/http-errors/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/http-errors/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/http-errors/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/http-errors/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/http-errors/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/http-errors/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/inherits/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/inherits/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/inherits/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/inherits/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/inherits/inherits.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/inherits/inherits.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/inherits/inherits_browser.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/inherits/inherits_browser.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/inherits/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/ipaddr.js/.npmignore" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/ipaddr.js/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/ipaddr.js/.travis.yml" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/ipaddr.js/.travis.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/ipaddr.js/Cakefile" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/ipaddr.js/Cakefile" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/ipaddr.js/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/ipaddr.js/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/ipaddr.js/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/ipaddr.js/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/ipaddr.js/bower.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/ipaddr.js/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/ipaddr.js/ipaddr.min.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/ipaddr.js/ipaddr.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/ipaddr.js/lib/ipaddr.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/ipaddr.js/lib/ipaddr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/ipaddr.js/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/ipaddr.js/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/ipaddr.js/src/ipaddr.coffee" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/ipaddr.js/src/ipaddr.coffee" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/ipaddr.js/test/ipaddr.test.coffee" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/ipaddr.js/test/ipaddr.test.coffee" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/media-typer/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/media-typer/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/media-typer/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/content-disposition/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/media-typer/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/media-typer/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/media-typer/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/media-typer/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/media-typer/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/media-typer/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/merge-descriptors/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/merge-descriptors/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/merge-descriptors/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/merge-descriptors/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/merge-descriptors/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/merge-descriptors/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/merge-descriptors/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/merge-descriptors/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/merge-descriptors/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/merge-descriptors/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/methods/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/methods/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/methods/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/methods/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/methods/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/methods/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/methods/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/methods/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/methods/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/methods/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/mime-db/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/mime-db/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/mime-db/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/destroy/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/mime-db/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/mime-db/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/mime-db/db.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/mime-db/db.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/mime-db/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/mime-db/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/mime-db/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/mime-db/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/mime-types/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/mime-types/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/mime-types/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/accepts/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/mime-types/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/mime-types/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/mime-types/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/mime-types/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/mime-types/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/mime-types/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/mime/.npmignore" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/mime/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/mime/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/mime/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/mime/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/mime/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/mime/build/build.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/mime/build/build.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/mime/build/test.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/mime/build/test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/mime/cli.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/mime/cli.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/mime/mime.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/mime/mime.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/mime/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/mime/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/mime/types.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/mime/types.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/ms/.npmignore" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/ms/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/ms/History.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/ms/History.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/ms/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/ms/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/ms/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/ms/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/ms/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/ms/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/ms/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/ms/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/negotiator/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/negotiator/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/negotiator/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/negotiator/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/negotiator/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/negotiator/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/negotiator/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/negotiator/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/negotiator/lib/charset.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/negotiator/lib/charset.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/negotiator/lib/encoding.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/negotiator/lib/encoding.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/negotiator/lib/language.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/negotiator/lib/language.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/negotiator/lib/mediaType.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/negotiator/lib/mediaType.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/negotiator/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/negotiator/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/on-finished/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/on-finished/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/on-finished/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/on-finished/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/on-finished/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/on-finished/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/on-finished/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/on-finished/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/on-finished/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/on-finished/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/parseurl/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/parseurl/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/parseurl/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/parseurl/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/parseurl/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/parseurl/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/parseurl/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/parseurl/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/parseurl/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/parseurl/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/path-to-regexp/History.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/path-to-regexp/History.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/path-to-regexp/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/array-flatten/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/path-to-regexp/Readme.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/path-to-regexp/Readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/path-to-regexp/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/path-to-regexp/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/path-to-regexp/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/path-to-regexp/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/proxy-addr/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/proxy-addr/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/proxy-addr/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/proxy-addr/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/proxy-addr/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/proxy-addr/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/proxy-addr/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/proxy-addr/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/proxy-addr/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/proxy-addr/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/qs/.eslintignore" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/qs/.eslintignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/qs/.eslintrc" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/qs/.eslintrc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/qs/.jscs.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/qs/.jscs.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/qs/CHANGELOG.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/qs/CHANGELOG.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/qs/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/qs/CONTRIBUTING.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/qs/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/qs/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/qs/dist/qs.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/qs/dist/qs.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/qs/lib/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/qs/lib/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/qs/lib/parse.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/qs/lib/parse.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/qs/lib/stringify.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/qs/lib/stringify.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/qs/lib/utils.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/qs/lib/utils.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/qs/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/qs/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/qs/test/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/qs/test/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/qs/test/parse.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/qs/test/parse.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/qs/test/stringify.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/qs/test/stringify.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/qs/test/utils.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/qs/test/utils.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/range-parser/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/range-parser/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/range-parser/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/range-parser/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/range-parser/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/range-parser/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/range-parser/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/range-parser/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/range-parser/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/range-parser/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/send/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/send/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/send/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/send/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/send/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/send/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/send/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/send/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/send/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/send/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/serve-static/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/serve-static/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/serve-static/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/serve-static/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/serve-static/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/serve-static/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/serve-static/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/serve-static/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/serve-static/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/serve-static/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/setprototypeof/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/setprototypeof/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/setprototypeof/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/setprototypeof/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/setprototypeof/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/setprototypeof/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/setprototypeof/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/setprototypeof/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/statuses/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/statuses/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/statuses/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/http-errors/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/statuses/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/statuses/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/statuses/codes.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/statuses/codes.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/statuses/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/statuses/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/statuses/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/statuses/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/type-is/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/type-is/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/type-is/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/type-is/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/type-is/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/type-is/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/type-is/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/type-is/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/type-is/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/type-is/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/unpipe/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/unpipe/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/unpipe/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/unpipe/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/unpipe/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/unpipe/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/unpipe/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/unpipe/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/unpipe/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/unpipe/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/utility/History.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/utility/History.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/utility/LICENSE.txt" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/utility/LICENSE.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/utility/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/utility/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/utility/lib/array.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/utility/lib/array.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/utility/lib/crypto.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/utility/lib/crypto.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/utility/lib/date.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/utility/lib/date.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/utility/lib/function.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/utility/lib/function.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/utility/lib/json.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/utility/lib/json.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/utility/lib/map.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/utility/lib/map.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/utility/lib/number.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/utility/lib/number.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/utility/lib/optimize.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/utility/lib/optimize.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/utility/lib/polyfill.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/utility/lib/polyfill.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/utility/lib/string.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/utility/lib/string.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/utility/lib/utility.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/utility/lib/utility.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/utility/lib/web.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/utility/lib/web.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/utility/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/utility/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/utils-merge/.travis.yml" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/utils-merge/.travis.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/utils-merge/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/utils-merge/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/utils-merge/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/utils-merge/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/utils-merge/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/utils-merge/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/utils-merge/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/utils-merge/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/vary/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/vary/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/vary/LICENSE" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/depd/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/vary/README.md" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/vary/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/vary/index.js" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/vary/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/node_modules/vary/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/node_modules/vary/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo2/package.json" afterPath="$PROJECT_DIR$/node-primer/utility/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/app.js" afterPath="$PROJECT_DIR$/node-primer/spider/app.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/.bin/mime" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/.bin/mime" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/accepts/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/accepts/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/accepts/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/mime-types/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/accepts/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/accepts/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/accepts/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/accepts/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/accepts/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/accepts/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/array-flatten/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/path-to-regexp/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/array-flatten/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/array-flatten/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/array-flatten/array-flatten.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/array-flatten/array-flatten.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/array-flatten/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/array-flatten/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/asynckit/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/asynckit/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/asynckit/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/asynckit/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/asynckit/bench.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/asynckit/bench.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/asynckit/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/asynckit/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/asynckit/lib/abort.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/asynckit/lib/abort.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/asynckit/lib/async.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/asynckit/lib/async.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/asynckit/lib/defer.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/asynckit/lib/defer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/asynckit/lib/iterate.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/asynckit/lib/iterate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/asynckit/lib/readable_asynckit.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/asynckit/lib/readable_asynckit.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/asynckit/lib/readable_parallel.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/asynckit/lib/readable_parallel.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/asynckit/lib/readable_serial.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/asynckit/lib/readable_serial.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/asynckit/lib/readable_serial_ordered.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/asynckit/lib/readable_serial_ordered.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/asynckit/lib/state.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/asynckit/lib/state.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/asynckit/lib/streamify.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/asynckit/lib/streamify.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/asynckit/lib/terminator.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/asynckit/lib/terminator.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/asynckit/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/asynckit/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/asynckit/parallel.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/asynckit/parallel.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/asynckit/serial.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/asynckit/serial.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/asynckit/serialOrdered.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/asynckit/serialOrdered.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/asynckit/stream.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/asynckit/stream.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/boolbase/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/boolbase/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/boolbase/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/boolbase/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/boolbase/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/boolbase/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/buffer-shims/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/buffer-shims/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/buffer-shims/license.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/buffer-shims/license.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/buffer-shims/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/buffer-shims/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/buffer-shims/readme.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/buffer-shims/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cheerio/History.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cheerio/History.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cheerio/Readme.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cheerio/Readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cheerio/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cheerio/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cheerio/lib/api/attributes.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cheerio/lib/api/attributes.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cheerio/lib/api/css.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cheerio/lib/api/css.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cheerio/lib/api/forms.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cheerio/lib/api/forms.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cheerio/lib/api/manipulation.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cheerio/lib/api/manipulation.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cheerio/lib/api/traversing.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cheerio/lib/api/traversing.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cheerio/lib/cheerio.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cheerio/lib/cheerio.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cheerio/lib/parse.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cheerio/lib/parse.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cheerio/lib/static.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cheerio/lib/static.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cheerio/lib/utils.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cheerio/lib/utils.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cheerio/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cheerio/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/combined-stream/License" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/delayed-stream/License" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/combined-stream/Readme.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/combined-stream/Readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/combined-stream/lib/combined_stream.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/combined-stream/lib/combined_stream.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/combined-stream/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/combined-stream/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/component-emitter/History.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/component-emitter/History.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/component-emitter/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/component-emitter/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/component-emitter/Readme.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/component-emitter/Readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/component-emitter/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/component-emitter/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/component-emitter/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/component-emitter/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/content-disposition/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/content-disposition/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/content-disposition/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/media-typer/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/content-disposition/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/content-disposition/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/content-disposition/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/content-disposition/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/content-disposition/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/content-disposition/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/content-type/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/content-type/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/content-type/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/content-type/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/content-type/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/content-type/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/content-type/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/content-type/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/content-type/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/content-type/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cookie-signature/.npmignore" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cookie-signature/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cookie-signature/History.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cookie-signature/History.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cookie-signature/Readme.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cookie-signature/Readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cookie-signature/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cookie-signature/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cookie-signature/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cookie-signature/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cookie/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cookie/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cookie/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cookie/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cookie/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cookie/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cookie/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cookie/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cookie/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cookie/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cookiejar/.npmignore" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/isarray/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cookiejar/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cookiejar/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cookiejar/cookiejar.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cookiejar/cookiejar.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cookiejar/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cookiejar/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cookiejar/readme.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cookiejar/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/cookiejar/tests/test.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cookiejar/tests/test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/core-util-is/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/core-util-is/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/core-util-is/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/core-util-is/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/core-util-is/float.patch" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/core-util-is/float.patch" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/core-util-is/lib/util.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/core-util-is/lib/util.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/core-util-is/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/core-util-is/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/core-util-is/test.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/core-util-is/test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/css-select/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/entities/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/css-select/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/css-select/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/css-select/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/css-select/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/css-select/lib/attributes.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/css-select/lib/attributes.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/css-select/lib/compile.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/css-select/lib/compile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/css-select/lib/general.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/css-select/lib/general.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/css-select/lib/procedure.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/css-select/lib/procedure.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/css-select/lib/pseudos.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/css-select/lib/pseudos.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/css-select/lib/sort.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/css-select/lib/sort.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/css-select/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/css-select/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/css-what/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domutils/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/css-what/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/css-what/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/css-what/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/css-what/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/css-what/readme.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/css-what/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/debug/.jshintrc" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/debug/.jshintrc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/debug/.npmignore" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/debug/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/debug/History.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/debug/History.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/debug/Makefile" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/debug/Makefile" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/debug/Readme.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/debug/Readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/debug/bower.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/debug/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/debug/browser.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/debug/browser.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/debug/component.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/debug/component.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/debug/debug.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/debug/debug.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/debug/node.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/debug/node.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/debug/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/delayed-stream/.npmignore" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/delayed-stream/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/delayed-stream/License" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/combined-stream/License" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/delayed-stream/Makefile" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/delayed-stream/Makefile" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/delayed-stream/Readme.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/delayed-stream/Readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/delayed-stream/lib/delayed_stream.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/delayed-stream/lib/delayed_stream.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/delayed-stream/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/delayed-stream/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/depd/History.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/depd/History.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/depd/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/vary/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/depd/Readme.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/depd/Readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/depd/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/depd/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/depd/lib/browser/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/depd/lib/browser/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/depd/lib/compat/buffer-concat.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/depd/lib/compat/buffer-concat.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/depd/lib/compat/callsite-tostring.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/depd/lib/compat/callsite-tostring.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/depd/lib/compat/event-listener-count.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/depd/lib/compat/event-listener-count.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/depd/lib/compat/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/depd/lib/compat/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/depd/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/depd/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/destroy/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/mime-db/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/destroy/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/destroy/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/destroy/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/destroy/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/destroy/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/destroy/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/dom-serializer/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/dom-serializer/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/dom-serializer/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/dom-serializer/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/dom-serializer/node_modules/domelementtype/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/dom-serializer/node_modules/domelementtype/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/dom-serializer/node_modules/domelementtype/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/dom-serializer/node_modules/domelementtype/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/dom-serializer/node_modules/domelementtype/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/dom-serializer/node_modules/domelementtype/readme.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domelementtype/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/dom-serializer/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/dom-serializer/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domelementtype/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domelementtype/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domelementtype/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domelementtype/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domelementtype/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domelementtype/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domelementtype/readme.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/dom-serializer/node_modules/domelementtype/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/.travis.yml" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/.travis.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/dom-serializer/node_modules/domelementtype/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/lib/element.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/lib/element.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/lib/node.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/lib/node.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/readme.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/cases/01-basic.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/cases/01-basic.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/cases/02-single_tag_1.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/cases/02-single_tag_1.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/cases/03-single_tag_2.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/cases/03-single_tag_2.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/cases/04-unescaped_in_script.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/cases/04-unescaped_in_script.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/cases/05-tags_in_comment.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/cases/05-tags_in_comment.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/cases/06-comment_in_script.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/cases/06-comment_in_script.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/cases/07-unescaped_in_style.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/cases/07-unescaped_in_style.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/cases/08-extra_spaces_in_tag.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/cases/08-extra_spaces_in_tag.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/cases/09-unquoted_attrib.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/cases/09-unquoted_attrib.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/cases/10-singular_attribute.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/cases/10-singular_attribute.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/cases/11-text_outside_tags.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/cases/11-text_outside_tags.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/cases/12-text_only.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/cases/12-text_only.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/cases/13-comment_in_text.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/cases/13-comment_in_text.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/cases/14-comment_in_text_in_script.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/cases/14-comment_in_text_in_script.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/cases/15-non-verbose.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/cases/15-non-verbose.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/cases/16-normalize_whitespace.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/cases/16-normalize_whitespace.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/cases/17-xml_namespace.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/cases/17-xml_namespace.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/cases/18-enforce_empty_tags.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/cases/18-enforce_empty_tags.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/cases/19-ignore_empty_tags.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/cases/19-ignore_empty_tags.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/cases/20-template_script_tags.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/cases/20-template_script_tags.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/cases/21-conditional_comments.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/cases/21-conditional_comments.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/cases/22-lowercase_tags.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/cases/22-lowercase_tags.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/cases/23-dom-lvl1.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/cases/23-dom-lvl1.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/cases/24-with-start-indices.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/cases/24-with-start-indices.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domhandler/test/tests.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domhandler/test/tests.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domutils/.npmignore" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domutils/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domutils/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/css-what/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domutils/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domutils/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domutils/lib/helpers.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domutils/lib/helpers.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domutils/lib/legacy.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domutils/lib/legacy.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domutils/lib/manipulation.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domutils/lib/manipulation.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domutils/lib/querying.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domutils/lib/querying.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domutils/lib/stringify.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domutils/lib/stringify.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domutils/lib/traversal.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domutils/lib/traversal.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domutils/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domutils/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domutils/readme.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domutils/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domutils/test/fixture.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domutils/test/fixture.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domutils/test/tests/helpers.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domutils/test/tests/helpers.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domutils/test/tests/legacy.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domutils/test/tests/legacy.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domutils/test/tests/traversal.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domutils/test/tests/traversal.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/domutils/test/utils.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/domutils/test/utils.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/ee-first/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/ee-first/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/ee-first/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/ee-first/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/ee-first/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/ee-first/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/ee-first/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/ee-first/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/encodeurl/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/encodeurl/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/encodeurl/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/encodeurl/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/encodeurl/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/encodeurl/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/encodeurl/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/encodeurl/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/encodeurl/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/encodeurl/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/entities/.travis.yml" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/entities/.travis.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/entities/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/css-select/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/entities/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/entities/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/entities/lib/decode.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/entities/lib/decode.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/entities/lib/decode_codepoint.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/entities/lib/decode_codepoint.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/entities/lib/encode.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/entities/lib/encode.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/entities/maps/decode.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/entities/maps/decode.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/entities/maps/entities.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/entities/maps/entities.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/entities/maps/legacy.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/entities/maps/legacy.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/entities/maps/xml.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/entities/maps/xml.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/entities/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/entities/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/entities/readme.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/entities/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/entities/test/mocha.opts" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/entities/test/mocha.opts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/entities/test/test.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/entities/test/test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/escape-html/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/escape-html/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/escape-html/Readme.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/escape-html/Readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/escape-html/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/escape-html/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/escape-html/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/escape-html/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/etag/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/etag/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/etag/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/etag/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/etag/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/etag/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/etag/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/etag/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/etag/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/etag/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/express/History.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/express/History.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/express/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/express/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/express/Readme.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/express/Readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/express/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/express/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/express/lib/application.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/express/lib/application.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/express/lib/express.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/express/lib/express.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/express/lib/middleware/init.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/express/lib/middleware/init.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/express/lib/middleware/query.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/express/lib/middleware/query.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/express/lib/request.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/express/lib/request.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/express/lib/response.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/express/lib/response.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/express/lib/router/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/express/lib/router/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/express/lib/router/layer.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/express/lib/router/layer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/express/lib/router/route.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/express/lib/router/route.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/express/lib/utils.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/express/lib/utils.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/express/lib/view.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/express/lib/view.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/express/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/express/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/extend/.eslintrc" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/extend/.eslintrc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/extend/.jscs.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/extend/.jscs.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/extend/.npmignore" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/extend/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/extend/.travis.yml" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/extend/.travis.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/extend/CHANGELOG.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/extend/CHANGELOG.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/extend/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/extend/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/extend/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/extend/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/extend/component.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/extend/component.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/extend/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/extend/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/extend/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/extend/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/finalhandler/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/finalhandler/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/finalhandler/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/finalhandler/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/finalhandler/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/finalhandler/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/finalhandler/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/finalhandler/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/finalhandler/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/finalhandler/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/form-data/License" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/form-data/License" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/form-data/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/form-data/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/form-data/lib/browser.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/form-data/lib/browser.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/form-data/lib/form_data.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/form-data/lib/form_data.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/form-data/lib/populate.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/form-data/lib/populate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/form-data/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/form-data/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/formidable/.npmignore" afterPath="$PROJECT_DIR$/node-primer/nodeApp/node_modules/formidable/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/formidable/.travis.yml" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/formidable/.travis.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/formidable/LICENSE" afterPath="$PROJECT_DIR$/node-primer/nodeApp/node_modules/formidable/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/formidable/Readme.md" afterPath="$PROJECT_DIR$/node-primer/nodeApp/node_modules/formidable/Readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/formidable/index.js" afterPath="$PROJECT_DIR$/node-primer/nodeApp/node_modules/formidable/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/formidable/lib/file.js" afterPath="$PROJECT_DIR$/node-primer/nodeApp/node_modules/formidable/lib/file.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/formidable/lib/incoming_form.js" afterPath="$PROJECT_DIR$/node-primer/nodeApp/node_modules/formidable/lib/incoming_form.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/formidable/lib/index.js" afterPath="$PROJECT_DIR$/node-primer/nodeApp/node_modules/formidable/lib/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/formidable/lib/json_parser.js" afterPath="$PROJECT_DIR$/node-primer/nodeApp/node_modules/formidable/lib/json_parser.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/formidable/lib/multipart_parser.js" afterPath="$PROJECT_DIR$/node-primer/nodeApp/node_modules/formidable/lib/multipart_parser.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/formidable/lib/octet_parser.js" afterPath="$PROJECT_DIR$/node-primer/nodeApp/node_modules/formidable/lib/octet_parser.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/formidable/lib/querystring_parser.js" afterPath="$PROJECT_DIR$/node-primer/nodeApp/node_modules/formidable/lib/querystring_parser.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/formidable/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/formidable/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/forwarded/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/forwarded/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/forwarded/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/forwarded/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/forwarded/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/forwarded/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/forwarded/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/forwarded/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/forwarded/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/forwarded/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/fresh/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/fresh/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/fresh/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/fresh/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/fresh/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/fresh/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/fresh/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/fresh/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/fresh/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/fresh/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/htmlparser2/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/htmlparser2/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/htmlparser2/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/htmlparser2/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/htmlparser2/lib/CollectingHandler.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/htmlparser2/lib/CollectingHandler.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/htmlparser2/lib/FeedHandler.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/htmlparser2/lib/FeedHandler.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/htmlparser2/lib/Parser.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/htmlparser2/lib/Parser.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/htmlparser2/lib/ProxyHandler.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/htmlparser2/lib/ProxyHandler.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/htmlparser2/lib/Stream.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/htmlparser2/lib/Stream.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/htmlparser2/lib/Tokenizer.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/htmlparser2/lib/Tokenizer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/htmlparser2/lib/WritableStream.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/htmlparser2/lib/WritableStream.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/htmlparser2/lib/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/htmlparser2/lib/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/htmlparser2/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/htmlparser2/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/http-errors/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/http-errors/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/http-errors/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/statuses/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/http-errors/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/http-errors/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/http-errors/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/http-errors/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/http-errors/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/http-errors/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/inherits/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/inherits/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/inherits/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/inherits/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/inherits/inherits.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/inherits/inherits.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/inherits/inherits_browser.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/inherits/inherits_browser.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/inherits/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/inherits/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/ipaddr.js/.npmignore" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/ipaddr.js/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/ipaddr.js/.travis.yml" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/ipaddr.js/.travis.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/ipaddr.js/Cakefile" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/ipaddr.js/Cakefile" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/ipaddr.js/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/ipaddr.js/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/ipaddr.js/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/ipaddr.js/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/ipaddr.js/bower.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/ipaddr.js/bower.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/ipaddr.js/ipaddr.min.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/ipaddr.js/ipaddr.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/ipaddr.js/lib/ipaddr.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/ipaddr.js/lib/ipaddr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/ipaddr.js/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/ipaddr.js/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/ipaddr.js/src/ipaddr.coffee" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/ipaddr.js/src/ipaddr.coffee" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/ipaddr.js/test/ipaddr.test.coffee" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/ipaddr.js/test/ipaddr.test.coffee" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/isarray/.npmignore" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/cookiejar/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/isarray/.travis.yml" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/isarray/.travis.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/isarray/Makefile" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/isarray/Makefile" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/isarray/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/isarray/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/isarray/component.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/isarray/component.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/isarray/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/isarray/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/isarray/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/isarray/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/isarray/test.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/isarray/test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.assignin/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.some/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.assignin/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.assignin/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.assignin/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.assignin/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.assignin/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.assignin/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.bind/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.reject/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.bind/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.bind/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.bind/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.bind/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.bind/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.bind/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.defaults/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.reduce/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.defaults/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.defaults/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.defaults/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.defaults/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.defaults/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.defaults/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.filter/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.pick/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.filter/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.filter/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.filter/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.filter/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.filter/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.filter/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.flatten/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.merge/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.flatten/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.flatten/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.flatten/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.flatten/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.flatten/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.flatten/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.foreach/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.map/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.foreach/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.foreach/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.foreach/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.foreach/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.foreach/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.foreach/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.map/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.foreach/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.map/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.map/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.map/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.map/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.map/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.map/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.merge/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.flatten/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.merge/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.merge/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.merge/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.merge/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.merge/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.merge/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.pick/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.filter/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.pick/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.pick/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.pick/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.pick/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.pick/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.pick/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.reduce/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.defaults/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.reduce/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.reduce/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.reduce/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.reduce/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.reduce/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.reduce/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.reject/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.bind/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.reject/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.reject/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.reject/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.reject/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.reject/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.reject/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.some/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.assignin/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.some/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.some/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.some/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.some/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/lodash.some/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/lodash.some/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/media-typer/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/media-typer/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/media-typer/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/content-disposition/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/media-typer/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/media-typer/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/media-typer/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/media-typer/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/media-typer/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/media-typer/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/merge-descriptors/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/merge-descriptors/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/merge-descriptors/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/merge-descriptors/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/merge-descriptors/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/merge-descriptors/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/merge-descriptors/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/merge-descriptors/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/merge-descriptors/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/merge-descriptors/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/methods/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/methods/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/methods/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/methods/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/methods/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/methods/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/methods/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/methods/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/methods/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/methods/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/mime-db/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/mime-db/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/mime-db/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/destroy/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/mime-db/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/mime-db/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/mime-db/db.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/mime-db/db.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/mime-db/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/mime-db/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/mime-db/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/mime-db/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/mime-types/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/mime-types/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/mime-types/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/accepts/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/mime-types/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/mime-types/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/mime-types/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/mime-types/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/mime-types/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/mime-types/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/mime/.npmignore" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/mime/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/mime/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/mime/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/mime/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/mime/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/mime/build/build.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/mime/build/build.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/mime/build/test.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/mime/build/test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/mime/cli.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/mime/cli.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/mime/mime.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/mime/mime.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/mime/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/mime/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/mime/types.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/mime/types.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/ms/.npmignore" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/ms/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/ms/History.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/ms/History.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/ms/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/ms/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/ms/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/ms/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/ms/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/ms/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/ms/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/ms/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/negotiator/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/negotiator/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/negotiator/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/negotiator/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/negotiator/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/negotiator/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/negotiator/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/negotiator/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/negotiator/lib/charset.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/negotiator/lib/charset.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/negotiator/lib/encoding.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/negotiator/lib/encoding.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/negotiator/lib/language.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/negotiator/lib/language.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/negotiator/lib/mediaType.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/negotiator/lib/mediaType.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/negotiator/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/negotiator/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/nth-check/.travis.yml" afterPath="$PROJECT_DIR$/node-primer/nodeApp/node_modules/formidable/.travis.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/nth-check/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/nth-check/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/nth-check/compile.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/nth-check/compile.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/nth-check/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/nth-check/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/nth-check/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/nth-check/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/nth-check/parse.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/nth-check/parse.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/nth-check/test.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/nth-check/test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/on-finished/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/on-finished/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/on-finished/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/on-finished/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/on-finished/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/on-finished/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/on-finished/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/on-finished/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/on-finished/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/on-finished/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/parseurl/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/parseurl/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/parseurl/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/parseurl/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/parseurl/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/parseurl/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/parseurl/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/parseurl/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/parseurl/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/parseurl/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/path-to-regexp/History.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/path-to-regexp/History.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/path-to-regexp/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/array-flatten/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/path-to-regexp/Readme.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/path-to-regexp/Readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/path-to-regexp/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/path-to-regexp/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/path-to-regexp/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/path-to-regexp/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/process-nextick-args/.travis.yml" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/process-nextick-args/.travis.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/process-nextick-args/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/process-nextick-args/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/process-nextick-args/license.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/process-nextick-args/license.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/process-nextick-args/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/process-nextick-args/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/process-nextick-args/readme.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/process-nextick-args/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/process-nextick-args/test.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/process-nextick-args/test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/proxy-addr/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/proxy-addr/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/proxy-addr/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/proxy-addr/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/proxy-addr/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/proxy-addr/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/proxy-addr/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/proxy-addr/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/proxy-addr/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/proxy-addr/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/qs/.eslintignore" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/qs/.eslintignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/qs/.eslintrc" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/qs/.eslintrc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/qs/.jscs.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/qs/.jscs.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/qs/CHANGELOG.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/qs/CHANGELOG.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/qs/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/qs/CONTRIBUTING.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/qs/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/qs/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/qs/dist/qs.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/qs/dist/qs.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/qs/lib/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/qs/lib/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/qs/lib/parse.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/qs/lib/parse.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/qs/lib/stringify.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/qs/lib/stringify.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/qs/lib/utils.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/qs/lib/utils.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/qs/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/qs/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/qs/test/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/qs/test/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/qs/test/parse.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/qs/test/parse.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/qs/test/stringify.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/qs/test/stringify.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/qs/test/utils.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/qs/test/utils.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/range-parser/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/range-parser/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/range-parser/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/range-parser/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/range-parser/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/range-parser/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/range-parser/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/range-parser/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/range-parser/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/range-parser/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/readable-stream/.npmignore" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/readable-stream/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/readable-stream/.travis.yml" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/readable-stream/.travis.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/readable-stream/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/readable-stream/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/readable-stream/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/readable-stream/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/readable-stream/duplex.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/readable-stream/duplex.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/readable-stream/lib/_stream_duplex.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/readable-stream/lib/_stream_duplex.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/readable-stream/lib/_stream_passthrough.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/readable-stream/lib/_stream_passthrough.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/readable-stream/lib/_stream_readable.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/readable-stream/lib/_stream_readable.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/readable-stream/lib/_stream_transform.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/readable-stream/lib/_stream_transform.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/readable-stream/lib/_stream_writable.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/readable-stream/lib/_stream_writable.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/readable-stream/lib/internal/streams/BufferList.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/readable-stream/lib/internal/streams/BufferList.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/readable-stream/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/readable-stream/passthrough.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/readable-stream/passthrough.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/readable-stream/readable.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/readable-stream/readable.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/readable-stream/transform.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/readable-stream/transform.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/readable-stream/writable.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/readable-stream/writable.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/send/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/send/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/send/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/send/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/send/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/send/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/send/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/send/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/send/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/send/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/serve-static/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/serve-static/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/serve-static/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/serve-static/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/serve-static/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/serve-static/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/serve-static/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/serve-static/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/serve-static/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/serve-static/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/setprototypeof/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/setprototypeof/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/setprototypeof/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/setprototypeof/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/setprototypeof/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/setprototypeof/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/setprototypeof/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/setprototypeof/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/statuses/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/statuses/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/statuses/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/http-errors/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/statuses/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/statuses/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/statuses/codes.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/statuses/codes.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/statuses/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/statuses/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/statuses/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/statuses/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/string_decoder/.npmignore" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/string_decoder/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/string_decoder/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/string_decoder/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/string_decoder/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/string_decoder/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/string_decoder/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/string_decoder/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/string_decoder/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/string_decoder/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/.npmignore" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/.npmignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/.travis.yml" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/.travis.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/.zuul.yml" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/.zuul.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/Contributing.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/Contributing.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/History.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/History.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/Makefile" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/Makefile" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/Readme.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/Readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/docs/head.html" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/docs/head.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/docs/images/bg.png" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/docs/images/bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/docs/index.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/docs/index.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/docs/style.css" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/docs/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/docs/tail.html" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/docs/tail.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/docs/test.html" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/docs/test.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/lib/client.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/lib/client.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/lib/is-function.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/lib/is-function.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/lib/is-object.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/lib/is-object.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/lib/node/agent.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/lib/node/agent.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/lib/node/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/lib/node/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/lib/node/parsers/image.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/lib/node/parsers/image.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/lib/node/parsers/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/lib/node/parsers/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/lib/node/parsers/json.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/lib/node/parsers/json.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/lib/node/parsers/text.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/lib/node/parsers/text.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/lib/node/parsers/urlencoded.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/lib/node/parsers/urlencoded.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/lib/node/response.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/lib/node/response.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/lib/node/unzip.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/lib/node/unzip.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/lib/request-base.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/lib/request-base.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/lib/response-base.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/lib/response-base.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/lib/utils.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/lib/utils.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/superagent.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/superagent.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/yarn-error.log" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/yarn-error.log" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/superagent/yarn.lock" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/superagent/yarn.lock" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/type-is/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/type-is/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/type-is/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/type-is/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/type-is/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/type-is/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/type-is/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/type-is/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/type-is/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/type-is/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/unpipe/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/unpipe/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/unpipe/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/unpipe/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/unpipe/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/unpipe/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/unpipe/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/unpipe/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/unpipe/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/unpipe/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/util-deprecate/History.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/util-deprecate/History.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/util-deprecate/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/util-deprecate/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/util-deprecate/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/util-deprecate/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/util-deprecate/browser.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/util-deprecate/browser.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/util-deprecate/node.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/util-deprecate/node.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/util-deprecate/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/util-deprecate/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/utils-merge/.travis.yml" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/utils-merge/.travis.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/utils-merge/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/utils-merge/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/utils-merge/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/utils-merge/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/utils-merge/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/utils-merge/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/utils-merge/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/utils-merge/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/vary/HISTORY.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/vary/HISTORY.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/vary/LICENSE" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/depd/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/vary/README.md" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/vary/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/vary/index.js" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/vary/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/node_modules/vary/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/node_modules/vary/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/node-primer/demo3/package.json" afterPath="$PROJECT_DIR$/node-primer/spider/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node-primer/README.md" afterPath="$PROJECT_DIR$/node-primer/README.md" />
     </list>
     <ignored path="node-learn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +914,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
@@ -53,8 +929,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="75">
-                <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <first_editor relative-caret-position="180">
+                <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -62,7 +938,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/node-primer/README.md">
           <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
@@ -77,8 +953,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <first_editor relative-caret-position="270">
+                <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -110,26 +986,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node-demo/lesson7/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node-demo/lesson6/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node-demo/lesson11/app.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -141,7 +997,7 @@
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node-primer/demo1/index.js">
+        <entry file="file://$PROJECT_DIR$/node-primer/nodeApp/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -150,8 +1006,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node-primer/utility/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node-primer/spider/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node-primer/demo1/server.js">
+        <entry file="file://$PROJECT_DIR$/node-primer/nodeApp/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
@@ -217,9 +1093,9 @@
         <option value="$PROJECT_DIR$/lesson7/Procfile" />
         <option value="$PROJECT_DIR$/node-primer/demo1/server.js" />
         <option value="$PROJECT_DIR$/node-primer/connectDemo/webapp/index.js" />
-        <option value="$PROJECT_DIR$/node-primer/README.md" />
         <option value="$PROJECT_DIR$/node-demo/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/node-primer/README.md" />
       </list>
     </option>
   </component>
@@ -239,9 +1115,9 @@
     <handled-path value="$PROJECT_DIR$/node-demo/lesson8/node_modules" />
     <handled-path value="$PROJECT_DIR$/node-demo/lesson9/node_modules" />
     <handled-path value="$PROJECT_DIR$/node-primer/connectDemo/webapp/node_modules" />
-    <handled-path value="$PROJECT_DIR$/node-primer/demo1/node_modules" />
-    <handled-path value="$PROJECT_DIR$/node-primer/demo2/node_modules" />
-    <handled-path value="$PROJECT_DIR$/node-primer/demo3/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node-primer/nodeApp/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node-primer/spider/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node-primer/utility/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="35" />
@@ -289,6 +1165,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="node-advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node-advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node-advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node-primer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -421,23 +1311,23 @@
       <workItem from="1505353428063" duration="18299000" />
       <workItem from="1505483532104" duration="9097000" />
       <workItem from="1510234955865" duration="4342000" />
-      <workItem from="1522657149266" duration="373000" />
+      <workItem from="1522657149266" duration="2605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88861000" />
+    <option name="totallyTimeSpent" value="91093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="35" width="1440" height="797" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.49159664" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3692946" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3692946" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.50840336" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -466,91 +1356,91 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node-primer/demo1/index.js">
+    <entry file="file://$PROJECT_DIR$/node-primer/nodeApp/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node-primer/demo1/case.html">
+    <entry file="file://$PROJECT_DIR$/node-primer/nodeApp/case.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node-primer/demo1/server.js">
+    <entry file="file://$PROJECT_DIR$/node-primer/nodeApp/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node-primer/demo1/case.html">
+    <entry file="file://$PROJECT_DIR$/node-primer/nodeApp/case.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node-primer/demo1/server.js">
+    <entry file="file://$PROJECT_DIR$/node-primer/nodeApp/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node-primer/demo1/case.html">
+    <entry file="file://$PROJECT_DIR$/node-primer/nodeApp/case.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node-primer/demo1/server.js">
+    <entry file="file://$PROJECT_DIR$/node-primer/nodeApp/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node-primer/demo1/node_modules/formidable/.travis.yml">
+    <entry file="file://$PROJECT_DIR$/node-primer/nodeApp/node_modules/formidable/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node-primer/demo1/node_modules/formidable/LICENSE">
+    <entry file="file://$PROJECT_DIR$/node-primer/nodeApp/node_modules/formidable/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node-primer/demo1/node_modules/formidable/index.js">
+    <entry file="file://$PROJECT_DIR$/node-primer/nodeApp/node_modules/formidable/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node-primer/demo1/node_modules/formidable/lib/file.js">
+    <entry file="file://$PROJECT_DIR$/node-primer/nodeApp/node_modules/formidable/lib/file.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node-primer/demo1/case.html">
+    <entry file="file://$PROJECT_DIR$/node-primer/nodeApp/case.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node-primer/demo3/package.json">
+    <entry file="file://$PROJECT_DIR$/node-primer/spider/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -564,14 +1454,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node-primer/demo1/package.json">
+    <entry file="file://$PROJECT_DIR$/node-primer/nodeApp/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node-primer/demo2/package.json">
+    <entry file="file://$PROJECT_DIR$/node-primer/utility/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
@@ -592,14 +1482,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node-primer/demo1/requestHandlers.js">
+    <entry file="file://$PROJECT_DIR$/node-primer/nodeApp/requestHandlers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
           <caret line="64" column="2" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node-primer/demo1/router.js">
+    <entry file="file://$PROJECT_DIR$/node-primer/nodeApp/router.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
@@ -613,24 +1503,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node-primer/demo2/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node-demo/lesson4/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node-primer/demo3/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -779,15 +1655,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node-primer/demo1/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node-primer/demo1/server.js">
+    <entry file="file://$PROJECT_DIR$/node-primer/nodeApp/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
@@ -807,28 +1675,6 @@
         <state relative-caret-position="195">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node-primer/README.md">
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -873,8 +1719,54 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <first_editor relative-caret-position="180">
+            <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-primer/nodeApp/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-primer/utility/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-primer/spider/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-primer/README.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
             <folding />
           </first_editor>
           <second_editor />
