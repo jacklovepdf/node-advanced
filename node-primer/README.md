@@ -135,7 +135,7 @@ nodejs是单线程的，它通过事件循环来实现并行操作；
     Node.js 的每一个 API 都是异步的，并作为一个独立线程运行，使用异步函数调用，并处理并发。js 基本上所有的事件机制都是用设计模式中观察者模式实现。
     Node.js 单线程类似进入一个while(true)的事件循环，直到没有事件观察者退出，每个异步事件都生成一个事件观察者，如果有事件发生就调用该回调函数.
 
-<img src="./images/eventEmitter.png" height="300">
+<img src="./images/eventEmitter.png" height="240">
 
 ```javascript
     // 引入 events 模块
