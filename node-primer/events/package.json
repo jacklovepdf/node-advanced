@@ -1,0 +1,14 @@
+{
+  "name": "eventexp",
+  "version": "1.0.0",
+  "description": "events use",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "events"
+  ],
+  "author": "jacklovepdf",
+  "license": "MIT"
+}
