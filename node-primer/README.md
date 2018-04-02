@@ -60,7 +60,7 @@ exports.start = start;
 
 > **Note**: 无论何时当服务器收到一个请求，onRequest回调函数就会被调用来处理请求。nodejs是基于事件驱动的，任何时候有相应事件发生的时调用这个回调函数。
 
-(2) 路由--routes.js
+(3) 路由--routes.js
 
     根据请求路径不同调用不同的请求处理程序；router(handle, pathname, response);
     
@@ -80,7 +80,7 @@ function route(handle, pathname, response, request) {
 exports.route = route;
 ```
 
-(3) 请求处理程序--requestHandler.js
+(4) 请求处理程序--requestHandler.js
 
     对请求作出响应；请求处理程序中不要进行耗时的阻塞操作，对于阻塞操作，通过回调的方式来执行；handle(response);
 
@@ -109,7 +109,7 @@ exports.handler = {
     "/start": start
 }
 ```
-(4) 视图--views.js
+(5) 视图--views.js
 
     对不同的请求作出响应的时候，大部分情况下，需要把内容展示出来，此时请求处理程序可能需要调用视图来生成对应的展示；
 

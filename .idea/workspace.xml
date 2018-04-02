@@ -74,8 +74,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="283">
-                <caret line="123" column="29" selection-start-line="123" selection-start-column="29" selection-end-line="123" selection-end-column="29" />
+              <first_editor relative-caret-position="223">
+                <caret line="111" column="2" selection-start-line="111" selection-start-column="2" selection-end-line="111" selection-end-column="2" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -436,12 +436,12 @@
       <workItem from="1505353428063" duration="18299000" />
       <workItem from="1505483532104" duration="9097000" />
       <workItem from="1510234955865" duration="4342000" />
-      <workItem from="1522657149266" duration="6252000" />
+      <workItem from="1522657149266" duration="7392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94740000" />
+    <option name="totallyTimeSpent" value="95880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="35" width="1440" height="797" extended-state="0" />
@@ -884,16 +884,16 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1522663418000" expanded="true" signature="927:1619" ph="{...}" />
-              <marker date="1522663418000" expanded="true" signature="977:1449" ph="{...}" />
-              <marker date="1522663418000" expanded="true" signature="1126:1229" ph="{...}" />
-              <marker date="1522663418000" expanded="true" signature="1279:1441" ph="{...}" />
-              <marker date="1522663418000" expanded="true" signature="1482:1510" ph="{...}" />
-              <marker date="1522663418000" expanded="true" signature="1889:2252" ph="{...}" />
-              <marker date="1522663418000" expanded="true" signature="1993:2045" ph="{...}" />
-              <marker date="1522663418000" expanded="true" signature="2050:2250" ph="{...}" />
-              <marker date="1522663418000" expanded="true" signature="2429:3015" ph="{...}" />
-              <marker date="1522663418000" expanded="true" signature="3034:3073" ph="{&quot;/&quot;: start...}" />
+              <marker date="1522665375000" expanded="true" signature="943:1635" ph="{...}" />
+              <marker date="1522665375000" expanded="true" signature="993:1465" ph="{...}" />
+              <marker date="1522665375000" expanded="true" signature="1142:1245" ph="{...}" />
+              <marker date="1522665375000" expanded="true" signature="1295:1457" ph="{...}" />
+              <marker date="1522665375000" expanded="true" signature="1498:1526" ph="{...}" />
+              <marker date="1522665375000" expanded="true" signature="1905:2268" ph="{...}" />
+              <marker date="1522665375000" expanded="true" signature="2009:2061" ph="{...}" />
+              <marker date="1522665375000" expanded="true" signature="2066:2266" ph="{...}" />
+              <marker date="1522665375000" expanded="true" signature="2445:3031" ph="{...}" />
+              <marker date="1522665375000" expanded="true" signature="3050:3089" ph="{&quot;/&quot;: start...}" />
             </folding>
           </first_editor>
           <second_editor>
@@ -903,19 +903,19 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="283">
-            <caret line="123" column="29" selection-start-line="123" selection-start-column="29" selection-end-line="123" selection-end-column="29" />
+          <first_editor relative-caret-position="223">
+            <caret line="111" column="2" selection-start-line="111" selection-start-column="2" selection-end-line="111" selection-end-column="2" />
             <folding>
-              <marker date="1522663418000" expanded="true" signature="927:1619" ph="{...}" />
-              <marker date="1522663418000" expanded="true" signature="977:1449" ph="{...}" />
-              <marker date="1522663418000" expanded="true" signature="1126:1229" ph="{...}" />
-              <marker date="1522663418000" expanded="true" signature="1279:1441" ph="{...}" />
-              <marker date="1522663418000" expanded="true" signature="1482:1510" ph="{...}" />
-              <marker date="1522663418000" expanded="true" signature="1889:2252" ph="{...}" />
-              <marker date="1522663418000" expanded="true" signature="1993:2045" ph="{...}" />
-              <marker date="1522663418000" expanded="true" signature="2050:2250" ph="{...}" />
-              <marker date="1522663418000" expanded="true" signature="2429:3015" ph="{...}" />
-              <marker date="1522663418000" expanded="true" signature="3034:3073" ph="{&quot;/&quot;: start...}" />
+              <marker date="1522665375000" expanded="true" signature="943:1635" ph="{...}" />
+              <marker date="1522665375000" expanded="true" signature="993:1465" ph="{...}" />
+              <marker date="1522665375000" expanded="true" signature="1142:1245" ph="{...}" />
+              <marker date="1522665375000" expanded="true" signature="1295:1457" ph="{...}" />
+              <marker date="1522665375000" expanded="true" signature="1498:1526" ph="{...}" />
+              <marker date="1522665375000" expanded="true" signature="1905:2268" ph="{...}" />
+              <marker date="1522665375000" expanded="true" signature="2009:2061" ph="{...}" />
+              <marker date="1522665375000" expanded="true" signature="2066:2266" ph="{...}" />
+              <marker date="1522665375000" expanded="true" signature="2445:3031" ph="{...}" />
+              <marker date="1522665375000" expanded="true" signature="3050:3089" ph="{&quot;/&quot;: start...}" />
             </folding>
           </first_editor>
           <second_editor />
