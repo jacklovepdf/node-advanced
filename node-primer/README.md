@@ -170,39 +170,39 @@ nodejs是单线程的，它通过事件循环来实现并行操作；
 
 <table>
         <tr>
+            <th>EventEmitter的api</th>
+            <th>api的释义</th>
+        </tr>
+        <tr>
             <th>addListener(event, listener)</th>
-            <th>设备文件名</th>
+            <th>为指定事件添加一个监听器到监听器数组的尾部。</th>
         </tr>
         <tr>
             <th>on(event, listener)</th>
-            <th>/dev/stdin</th>
+            <th>on为addListener的别名，功能一样。</th>
         </tr>
         <tr>
             <th>once(event, listener)</th>
-            <th>/dev/stdout</th>
+            <th>为指定事件注册一个单次监听器，即监听器最多只会触发一次；</th>
         </tr>
         <tr>
             <th>removeListener(event, listener)</th>
-            <th>/dev/stderr</th>
-        </tr>
-        <tr>
-            <th>removeListener(event, listener)</th>
-            <th>/dev/stderr</th>
+            <th>移除指定事件的某个监听器</th>
         </tr>
         <tr>
             <th>removeAllListeners([event])</th>
-            <th>/dev/stderr</th>
+            <th>移除指定事件的所有监听器</th>
         </tr>
         <tr>
             <th>setMaxListeners(n)</th>
-            <th>/dev/stderr</th>
+            <th>默认情况下，添加的监听器超过10个就会输出警告信息。 setMaxListeners用于提高监听器的默认数量限制。</th>
         </tr>
         <tr>
             <th>listeners(event)</th>
-            <th>/dev/stderr</th>
+            <th>返回指定事件的监听器数组</th>
         </tr>
         <tr>
             <th>emit(event, [arg1], [arg2], [...])</th>
-            <th>/dev/stderr</th>
+            <th>触发事件</th>
         </tr>
     </table>
