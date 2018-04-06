@@ -1,0 +1,14 @@
+{
+  "name": "buffer-dmoe",
+  "version": "1.0.0",
+  "description": "des of buffer",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "buffer"
+  ],
+  "author": "jacklovepdf",
+  "license": "MIT"
+}
