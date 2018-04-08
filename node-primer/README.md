@@ -6,11 +6,13 @@ some basic concept and practice of node, review now!
 
 - [Architecture for simple node applications](#arch-simple-node-app)
 - [Event loop and EventEmitter](#event-loop-event-emitter)
-- [Working with Functions](#working-with-functions)
-- [Object and Prototype](#object-and-prototype)
-- [Arrays and Dictionary](#arrays-and-dictionary)
-- [Library and API Design](#library-and-api-design)
-- [Concurrency](#concurrency)
+- [Buffer](#buffer)
+- [Stream](#stream)
+- [Module system](#module-system)
+- [About router](#router)
+- [File system](#file-system)
+- [request](#request)
+- [request](#request)
 
 ## Architecture for simple node applications
 
@@ -209,3 +211,80 @@ nodejs是单线程的，它通过事件循环来实现并行操作；
  3. error事件
  
     EventEmitter 定义了一个特殊的事件 error，它包含了错误的语义，我们在遇到 异常的时候通常会触发 error 事件。当 error 被触发时，EventEmitter 规定如果没有响 应的监听器，Node.js 会把它当作异常，退出程序并输出错误信息。我们一般要为会触发 error 事件的对象设置监听器，避免遇到错误后整个程序崩溃。
+    
+<sup>[(back to table of contents)](#event-loop-event-emitter)</sup>
+
+## Buffer
+
+1. about buffer
+
+    JavaScript语言自身只有字符串数据类型，没有二进制数据类型。但在处理像TCP流或文件流时，必须使用到二进制数据。因此在 Node.js核心库中，定义了一个Buffer类，该类用来创建一个专门存放二进制数据的缓存区。
+Buffer 实例一般用于表示编码字符的序列；通过使用显式的字符编码，就可以在 Buffer 实例与普通的 JavaScript 字符串之间进行相互转换。
+
+```javascript
+    const { Buffer } = require('buffer');
+    
+    //创建Buffer类
+    let buf = Buffer.from('runoob');
+    
+    //写入缓冲区,返回实际写入的大小。如果 buffer 空间不足， 则只会写入部分字符串。
+    //buf.write(string[, offset[, length]][, encoding])
+    
+    //从缓冲区读取数据,解码缓冲区数据并使用指定的编码返回字符串。
+    //buf.toString([encoding[, start[, end]]])
+    buf = Buffer.alloc(26);
+    for (var i = 0 ; i < 26 ; i++) {
+      buf[i] = i + 97;
+    }
+    
+    console.log( buf.toString('ascii'));       // 输出: abcdefghijklmnopqrstuvwxyz
+    console.log( buf.toString('ascii',0,5));   // 输出: abcde
+    
+    //缓冲区合并，Buffer.concat(list[, totalLength])
+    var buffer1 = Buffer.from(('jacklovepdf'));
+    var buffer2 = Buffer.from(('is a bad boy!'));
+    var buffer3 = Buffer.concat([buffer1,buffer2]);
+    console.log("buffer3 内容: " + buffer3.toString());
+    
+    //缓冲区比较, buf.compare(otherBuffer);
+```
+<sup>[(back to table of contents)](#buffer)</sup>
+
+
+## Stream
+
+    Stream 是一个抽象接口，Node中有很多对象实现了这个接口。例如，对http服务器发起请求的request对象就是一个Stream，还有stdout（标准输出）。
+
+1. 读取流数据
+```javascript
+    var fs = require("fs");
+    var data = '';
+    
+    // 创建可读流
+    var readerStream = fs.createReadStream('input.txt');
+    // 设置编码为 utf8。
+    readerStream.setEncoding('UTF8');
+    
+    // 处理流事件 --> data, end, and error
+    readerStream.on('data', function(chunk) {
+       data += chunk;
+    });
+    
+    readerStream.on('end',function(){
+       console.log(data);
+    });
+    
+    readerStream.on('error', function(err){
+       console.log(err.stack);
+    });
+    
+    console.log("程序执行完毕");
+```
+
+
+<sup>[(back to table of contents)](#stream)</sup>
+
+
+## Module system
+
+<sup>[(back to table of contents)](#module-system)</sup>
