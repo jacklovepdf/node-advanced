@@ -1,0 +1,11 @@
+{
+  "name": "stream-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "jacklovepdf",
+  "license": "MIT"
+}

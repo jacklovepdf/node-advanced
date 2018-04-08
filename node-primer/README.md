@@ -281,6 +281,67 @@ Buffer 实例一般用于表示编码字符的序列；通过使用显式的字�
     console.log("程序执行完毕");
 ```
 
+2. 写入流
+
+```javascript
+    var fs = require("fs");
+    var data = 'i am a pretty girl!';
+    
+    // 创建一个可以写入的流，写入到文件 output.txt 中
+    var writerStream = fs.createWriteStream('output.txt');
+    
+    // 使用 utf8 编码写入数据
+    writerStream.write(data,'UTF8');
+    
+    // 标记文件末尾
+    writerStream.end();
+    
+    // 处理流事件 --> data, end, and error
+    writerStream.on('finish', function() {
+        console.log("写入完成。");
+    });
+    
+    writerStream.on('error', function(err){
+       console.log(err.stack);
+    });
+    
+    console.log("程序执行完毕");
+```
+
+3. 管道流
+    一个流的输出作为另一个流的输入；
+
+```javascript
+    var fs = require("fs");
+    
+    // 创建一个可读流
+    var readerStream = fs.createReadStream('input.txt');
+    
+    // 创建一个可写流
+    var writerStream = fs.createWriteStream('output.txt');
+    
+    // 管道读写操作
+    // 读取 input.txt 文件内容，并将内容写入到 output.txt 文件中
+    readerStream.pipe(writerStream);
+    
+    console.log("程序执行完毕");
+```
+
+4. 链式流
+
+   链式是通过连接输出流到另外一个流并创建多个流操作链的机制。
+
+```javascript
+    var fs = require("fs");
+    var zlib = require('zlib');
+    
+    // 压缩 input.txt 文件为 input.txt.gz
+    fs.createReadStream('./data/input.txt')
+      .pipe(zlib.createGzip())
+      .pipe(fs.createWriteStream('input.txt.gz'));
+      
+    console.log("文件压缩完成。");
+```
 
 <sup>[(back to table of contents)](#stream)</sup>
 
