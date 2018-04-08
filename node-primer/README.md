@@ -348,4 +348,28 @@ Buffer 实例一般用于表示编码字符的序列；通过使用显式的字�
 
 ## Module system
 
+    模块是Node.js应用程序的基本组成部分，文件和模块是一一对应的。每一个模块对应一个对象。
+    Node.js 提供了 exports 和 require 两个对象，其中 exports 是模块公开的接口，require 用于从外部获取一个模块的接口，即所获取模块的exports 对象。
+   
+1. node中模块类型
+    
+   核心模块，文件模块（相对路径和绝对路径）;核心模块在node源码编译过程中被编译成了二进制可执行文件，在node进程启动时，部分核心模块被直接加载进内存，所以当引入这部分核心模块
+   的时候，文件的定位和编译执行过程是没有的；所以这部分模块的加载速度是最快的；而文件模块是运行时动态加载，需要文件定位，编译执行的过程，加载速度比核心模块慢；
+
+2. 模块编译
+
+ ```javascript
+     function Module(id, parent) {
+       this.id = id;
+       this.exports = {};
+       this.parent = parent;
+       if(parent && parent.children) {
+          parent.children.push(this);
+       }
+       this.filename = null;
+       this.loaded = false;
+       this.children = [];
+     }
+ ```  
+
 <sup>[(back to table of contents)](#module-system)</sup>
