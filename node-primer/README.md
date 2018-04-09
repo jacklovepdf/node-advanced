@@ -11,7 +11,7 @@ some basic concept and practice of node, review now!
 - [Module system](#module-system)
 - [About router](#router)
 - [File system](#file-system)
-- [request](#request)
+- [Request](#request)
 - [NetWork](#network)
 - [OS](#os)
 - [Path](#path)
@@ -376,3 +376,7 @@ Buffer 实例一般用于表示编码字符的序列；通过使用显式的字�
  ```  
 
 <sup>[(back to table of contents)](#module-system)</sup>
+
+
+## About router
+
