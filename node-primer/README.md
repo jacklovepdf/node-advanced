@@ -11,6 +11,7 @@ some basic concept and practice of node, review now!
 - [Module system](#module-system)
 - [About router](#router)
 - [File system](#file-system)
+- [Global](#global)
 - [Request](#request)
 - [NetWork](#network)
 - [OS](#os)
@@ -256,7 +257,7 @@ Buffer 实例一般用于表示编码字符的序列；通过使用显式的字�
 
 ## Stream
 
-    Stream 是一个抽象接口，Node中有很多对象实现了这个接口。例如，对http服务器发起请求的request对象就是一个Stream，还有stdout（标准输出）。
+    Stream是一个抽象接口，Node中有很多对象实现了这个接口。例如，对http服务器发起请求的request对象就是一个Stream，还有stdout（标准输出）。
 
 1. 读取流数据
 ```javascript
@@ -375,8 +376,141 @@ Buffer 实例一般用于表示编码字符的序列；通过使用显式的字�
      }
  ```  
 
+3. exports and module.exports
+
+    exports变量是在模块的文件级别作用域内有效的，它在模块被执行前被赋予module.exports 的值。
+
+
 <sup>[(back to table of contents)](#module-system)</sup>
 
 
 ## About router
 
+```javascript
+    var http = require("http");
+    var url = require("url");
+    var handler = require("");
+    function start(route) {
+      function onRequest(request, response) {
+        var pathname = url.parse(request.url).pathname;
+        console.log("Request for " + pathname + " received.");
+     
+        route(pathname, handler, request, response);
+      }
+     
+      http.createServer(onRequest).listen(8888);
+      console.log("Server has started.");
+    }
+     
+    exports.start = start;
+```
+
+<sup>[(back to table of contents)](#router)</sup>
+
+
+## File system
+
+    Node.js 提供一组类似 UNIX标准的文件操作API;Node.js 文件系统（fs 模块）模块中的方法均有异步和同步版本;建议大家使用异步方法，比起同步，异步方法性能更高，速度更快，而且没有阻塞。
+    
+```javascript
+    //异步读取文件
+    fs.readFile('input.txt', function (err, data) {});
+    //同步读取文件
+    var data = fs.readFileSync('input.txt');
+    //异步打开文件
+    fs.open(path, flags, mode, function (err, fd) {});
+    //异步模式获取文件信息
+    fs.stat(path, function (err, stats) {})
+    //异步模式下写入文件
+    fs.writeFile(file, data, options, function (err) {})
+    //异步模式读取文件
+    fs.read(fd, buffer, offset, length, position, function(err, bytesRead, buffer) {
+       // 
+    })
+    //异步模式下关闭文件
+    fs.close(fd, function (err) {})
+```
+<sup>[(back to table of contents)](#file-system)</sup>
+
+## Global
+
+    JavaScript 中有一个特殊的对象，称为全局对象（Global Object）。在浏览器 JavaScript 中，通常 window 是全局对象， 
+    而 Node.js中的全局对象是 global，所有全局变量（除了 global 本身以外）都是 global 对象的属性。
+
+1. __filename
+
+__filename 表示当前正在执行的脚本的文件名。它将输出文件所在位置的绝对路径，且和命令行参数所指定的文件名不一定相同。 如果在模块中，返回的值是模块文件的路径。
+
+```javascript
+    console.log( __filename );// /web/com/runoob/nodejs/main.js
+```
+
+2. __dirname
+
+__dirname 表示当前执行脚本所在的目录。
+
+```javascript
+    console.log( __dirname ); // /web/com/runoob/nodejs
+```
+
+3. process
+
+它用于描述当前Node.js进程状态的对象，提供了一个与操作系统的简单接口。通常在你写本地命令行程序的时候，少不了要 和它打交道。下面将会介绍 process 对象的一些最常用的成员方法。
+
+（1）process事件
+
+    <table>
+        <tr>
+            <th>exit</th>
+            <th>当进程准备退出时触发。</th>
+        </tr>
+        <tr>
+            <th>beforeExit</th>
+            <th>当node清空事件循环，并且没有其他安排时触发这个事件。</th>
+        </tr>
+        <tr>
+            <th>uncaughtException</th>
+            <th>当一个异常冒泡回到事件循环，触发这个事件。</th>
+        </tr>
+        <tr>
+            <th>Signal事件</th>
+            <th>当进程接收到信号时就触发。</th>
+        </tr>
+    </table>
+    
+  (2) Process属性
+  
+  <table>
+      <tr>
+          <th>stdout/stderr/stdin</th>
+          <th>标准输出/错误／输入流。</th>
+      </tr>
+      <tr>
+          <th>argv</th>
+          <th>argv为一个数组，由命令行执行脚本时的各个参数组成。它的第一个成员总是node，第二个成员是脚本文件名，其余成员是脚本文件的参数。</th>
+      </tr>
+      <tr>
+          <th>execPath</th>
+          <th>返回执行当前脚本的 Node 二进制文件的绝对路径</th>
+      </tr>
+      <tr>
+          <th>env</th>
+          <th>返回一个对象，成员为当前shell的环境变量</th>
+      </tr>
+      <tr>
+          <th>version</th>
+          <th>Node的版本</th>
+      </tr>
+      <tr>
+          <th>pid</th>
+          <th>当前进程的进程号</th>
+      </tr>
+      <tr>
+          <th>arch</th>
+          <th>当前CPU的架构</th>
+      </tr>
+      <tr>
+          <th>platform</th>
+          <th>操作系统平台</th>
+      </tr>
+  </table>

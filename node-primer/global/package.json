@@ -1,0 +1,12 @@
+{
+  "name": "global-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node app.js 'arg1'"
+  },
+  "author": "",
+  "license": "MIT"
+}

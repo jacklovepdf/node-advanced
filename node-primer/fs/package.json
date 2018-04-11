@@ -1,0 +1,15 @@
+{
+  "name": "fs-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "fs-demo"
+  ],
+  "author": "jacklovepdf",
+  "license": "MIT"
+}
