@@ -12,6 +12,8 @@ some basic concept and practice of node, review now!
 - [About router](#router)
 - [File system](#file-system)
 - [Global](#global)
+- [Url](#url)
+- [Http](#http)
 - [Request](#request)
 - [NetWork](#network)
 - [OS](#os)
@@ -514,3 +516,116 @@ __dirname 表示当前执行脚本所在的目录。
           <th>操作系统平台</th>
       </tr>
   </table>
+  
+<sup>[(back to table of contents)](#global)</sup>
+
+
+## Url
+
+    url 模块提供了一些实用函数，用于 URL 处理与解析;
+
+1. URL 字符串与URL对象;
+
+一个 URL 字符串是一个结构化的字符串，它包含多个有意义的组成部分。 当被解析时，会返回一个URL对象，它包含每个组成部分作为属性。
+url模块提供了两套API来处理URLs：一个是Node.js遗留的特有的API,另一个则是通常使用在web浏览器中实现了WHATWG URL Standard的API（新增于: v7.0.0）.
+请注意: 虽然Node.js遗留的特有的API并没有被弃用，但是保留的目的是用于向后兼容已有应用程序。因此新的应用程序请使用WHATWG API。
+
+2. URL属性
+
+<img src="./images/url.png" height="240">
+
+3. URLSearchParams对象
+
+```javascript
+    const { URL, URLSearchParams } = require('url');
+    
+    const myURL = new URL('https://example.org/?abc=123');
+    console.log(myURL.searchParams.get('abc')); // 获取查询字符串值，输出 123
+    
+    myURL.searchParams.append('abc', 'xyz');
+    console.log(myURL.href); // 添加查询条件，输出 https://example.org/?abc=123&abc=xyz
+    
+    myURL.searchParams.delete('abc'); //删除查询字符
+    myURL.searchParams.set('a', 'b'); //设置查询字符
+    console.log(myURL.href);  // 输出 https://example.org/?a=b
+```
+
+4. Node.js遗留的特有的API: url.parse()
+
+## Http
+
+    http模块是node的核心模块，当要使用HTTP服务器与客户端的时候，可以选择使用该模块;为了支持各种可能的 HTTP 应用，Node.js 的 HTTP API 是非常底层的。 
+    它只涉及流处理与消息解析。 它把一个消息解析成消息头和消息主体，但不解析具体的消息头或消息主体。
+
+1. http.createServer([requestListener])
+
+    返回一个新建的 http.Server 实例。requestListener 是一个函数，会被自动添加到 'request' 事件。
+```javascript
+    var server = http.createServer(function(req, res) {});
+    server.listener(8000);
+    
+```
+
+2. http.get(options[, callback]) 与 http.request(options[, callback])
+
+    这两个方法唯一的区别是get设置请求方法为 GET且自动调用req.end()。返回: <http.ClientRequest>; 注意，回调函数务必消耗掉响应数据；
+    options 可以是一个对象、或字符串、或 URL 对象。 如果 options 是一个字符串，它会被自动使用 url.parse() 解析。 如果它是一个URL对象, 它会被默认转换成一个 options 对象。
+    可选的 callback 参数会作为单次监听器被添加到 'response' 事件。
+    
+```javascript
+    const postData = querystring.stringify({
+      'msg' : 'Hello World!'
+    });
+    
+    const options = {
+      hostname: 'www.google.com',
+      port: 80,
+      path: '/upload',
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+        'Content-Length': Buffer.byteLength(postData)
+      }
+    };
+    
+    const req = http.request(options, (res) => {
+      console.log(`状态码: ${res.statusCode}`);
+      console.log(`响应头: ${JSON.stringify(res.headers)}`);
+      res.setEncoding('utf8');
+      res.on('data', (chunk) => {
+        console.log(`响应主体: ${chunk}`);
+      });
+      res.on('end', () => {
+        console.log('响应中已无数据。');
+      });
+    });
+    
+    req.on('error', (e) => {
+      console.error(`请求遇到问题: ${e.message}`);
+    });
+    
+    // 写入数据到请求主体
+    req.write(postData);
+    // 表明请求结束
+    req.end();
+    
+```
+
+<sup>[(back to table of contents)](#http)</sup>
+
+
+
+## Request
+
+
+
+
+
+
+
+
+
+
+
+
+
