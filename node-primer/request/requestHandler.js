@@ -9,7 +9,7 @@ function start(req, res) {
     var postHTML =
         '<html><head><meta charset="utf-8"><title>jack node post request demo</title></head>' +
         '<body>' +
-        '<form method="post" action="/show" autocomplete="on" name="personMsg" target="_blank">' +
+        '<form method="post" action="/show" autocomplete="on" name="personMsg" target="_self">' +
         '网站名： <input name="name"><br>' +
         '网站URL： <input name="url"><br>' +
         '<input type="submit">' +
@@ -21,8 +21,10 @@ function start(req, res) {
 }
 
 function show(req, res) {
-    console.log("show");
     var body = "";
+    console.log("req====>",req);
+    console.log("res====>",res);
+    // 如果调用 readable.setEncoding() 方法明确为流指定了默认编码，回调函数将接收到一个字符串，否则接收到的数据将是一个 Buffer 实例。
     req.on('data', function (chunk) {
         body += chunk;
     });
