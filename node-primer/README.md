@@ -14,7 +14,7 @@ some basic concept and practice of node, review now!
 - [Global](#global)
 - [Url](#url)
 - [Http](#http)
-- [Request](#request)
+- [Request and Response](#request-and-response)
 - [NetWork](#network)
 - [OS](#os)
 - [Path](#path)
@@ -552,6 +552,9 @@ url模块提供了两套API来处理URLs：一个是Node.js遗留的特有的API
 
 4. Node.js遗留的特有的API: url.parse()
 
+<sup>[(back to table of contents)](#url)</sup>
+
+
 ## Http
 
     http模块是node的核心模块，当要使用HTTP服务器与客户端的时候，可以选择使用该模块;为了支持各种可能的 HTTP 应用，Node.js 的 HTTP API 是非常底层的。 
@@ -613,14 +616,138 @@ url模块提供了两套API来处理URLs：一个是Node.js遗留的特有的API
 
 <sup>[(back to table of contents)](#http)</sup>
 
+## Request and Response
+
+1.http.IncomingMessage 类
+
+    这个对象通常由HTTP SERVER建立而非用户手动建立，并且会作为传递给'request'事件监听器第一个参数(就是http.Server相关的request事件当中的函数的参数，一个是request，一个是response).
+    IncomingMessage 对象由 http.Server 或 http.ClientRequest 创建，并作为第一个参数分别递给 'request' 和 'response' 事件。 它可以用来访问响应状态、消息头、以及数据。
+    如果调用 readable.setEncoding() 方法明确为流指定了默认编码，回调函数将接收到一个字符串，否则接收到的数据将是一个 Buffer 实例。
 
 
-## Request
+此对象的可以触发以下事件：
+
+(1). Event: ‘data’
+    function (chunk) { }
+    当接收到消息体(客户端发过来的给服务器的)中的一部分时候会发出data 事件。例如:代表消息体的数据块(chunk)将作为唯一的参数传递给回调函数。 
+这个时候数据已经按照传输编码进行了解码（不是字符集编码）。消息体本身是一个字符串，可以使用request.setBodyEncoding()方法设定消息体的编码。
+
+(2). Event: ‘end’
+    function () { }
+    每次完全接收完信息后都会触发一次。 没有参数，当这个事件发出后， 将不会再触发其他事件。
+
+(3). request.method
+    request.method 是一个只读字符串。例如’GET’,’DELETE’
+
+(4). request.url
+    代表所请求的URL字符串.它仅包括实际的HTTP请求中的URL地址。
+    
+(4.1) 如果你想要解析这个URL 中的各个部分,你应当使用require('url').parse(request.url). 
+(4.2) 如果你想从查询字符串中提出这些参数, 你可以使用require(‘querystring’).parse 方法,或者传一个true 作为第二个 参数给require(‘url’).parse 方法。 
+
+(5). request.headers 只读
+(6). request.httpVersion
+    这是HTTP 协议版本(字符串形式)， 只读。 
+    例如'1.1','1.0' 。 
+    request.httpVersionMajor 是第一个数字， 
+    request.httpVersionMinor 是第二个数字。
+
+(7). request.setEncoding(encoding=’null’)
+    设置此请求体的字集编码,'utf8'或者'binary'。缺省值是null，这表示’data’事件的参数将会是一个Buffer对象。
+
+(8). request.pause()
+    暂停此request触发事件.对于控制上传非常有用。
+
+(9). request.resume()
+    恢复一个暂停的request。
+
+(10). request.connection
+    request.connection 是一个代表当前连接的net.Stream 对象。 
+    对于HTTPS，使用request.connection.verifyPeer() 和request.connection.getPeerCertificate()来获得客户端（浏览 器）的认证详情。
+
+2. 该对象在 HTTP 服务器内部被创建。 它作为第二个参数被传入'request' 事件。这个类实现了（而不是继承自)可写流接口。 它是一个有以下事件的EventEmitter。
+
+(1)'close' 事件
+
+(2)'finish' 事件
+    当响应已被发送时触发。 更具体地说，当响应头和响应主体的最后一部分已被交给操作系统通过网络进行传输时，触发该事件。 这并不意味着客户端已接收到任何东西。
+    该事件触发后，响应对象上不再触发其他事件。
+
+(3)res.end([data][, encoding][, callback])
+    data: <string> | <Buffer>
+    encoding: <string>
+    callback: <Function>
+    该方法会通知服务器，所有响应头和响应主体都已被发送，即服务器将其视为已完成。 每次响应都必须调用 response.end() 方法。
+    如果指定了 data，则相当于调用 response.write(data, encoding) 之后再调用 response.end(callback)。如果指定了 callback，则当响应流结束时被调用。
+
+(4)res.getHeader(name)
+    读取一个已入队列但尚未发送到客户端的响应头。 注意，名称不区分大小写。
+    
+(5)res.getHeaders()
+    返回当前响应头文件的浅拷贝。
+```javascript
+    response.setHeader('Foo', 'bar');
+    response.setHeader('Set-Cookie', ['foo=bar', 'bar=baz']);
+    
+    const headers = response.getHeaders();
+    // headers === { foo: 'bar', 'set-cookie': ['foo=bar', 'bar=baz'] }
+```
 
 
+(6)res.setHeader(name, value)
+    name <string>
+    value <string> | <string[]>
+    为一个隐式的响应头设置值。 如果该响应头已存在，则值会被覆盖。 如果要发送多个名称相同的响应头，则使用字符串数组。
 
+**Note**: response.setHeader() 设置的响应头会与 response.writeHead() 设置的响应头合并，且 response.writeHead() 的优先。
 
+(7)res.sendDate
+    当为 true 时，如果响应头里没有日期响应头，则日期响应头会被自动生成并发送。默认为 true。该属性只可在测试时被禁用，因为 HTTP 响应需要包含日期响应头
 
+(8)res.statusCode
+    当使用隐式的响应头时（没有显式地调用 response.writeHead()），该属性控制响应头刷新时将被发送到客户端的状态码。
+```javascript
+    response.statusCode = 404;
+```
+
+(9)res.statusMessage
+    当使用隐式的响应头时（没有显式地调用 response.writeHead()），该属性控制响应头刷新时将被发送到客户端的状态信息。
+```javascript
+    response.statusMessage = 'Not found';
+```
+
+(10)response.write(chunk[, encoding][, callback])
+
+    chunk: <string> | <Buffer>, encoding: <string>, callback: <Function>;
+    如果该方法被调用且 response.writeHead() 没有被调用，则它会切换到隐式响应头模式并刷新隐式响应头。
+    该方法会发送一块响应主体。 它可被多次调用，以便提供连续的响应主体片段。
+
+**Note**: 请注意在http模块中，当请求是HEAD请求时，响应主体被省略。 类似地，204和304响应 不能包括消息体。
+chunk可以是一个字符串或一个 buffer。 如果chunk是一个字符串，则第二个参数指定如何将它编码成一个字节流。 encoding默认为'utf8'。 当数据块被刷新时，callback 会被调用。
+response.write()首次被调用时，会发送缓冲的响应头信息和响应主体的第一块数据到客户端。 response.write()第二次被调用时，Node.js能够确定数据会被接收，于是开始传输新数据。 也就是说，响应的完成取决于响应主体的第一块数据。
+如果全部数据被成功刷新到内核缓冲区，则返回true。 如果全部或部分数据还在内存中排队，则返回false。 当缓冲区再次空闲时，则触发'drain' 事件。
+
+(11)response.writeContinue()
+    发送一个 HTTP/1.1 100 Continue 消息到客户端，表示请求主体可以开始发送。
+
+(12)response.writeHead(statusCode[, statusMessage][, headers])
+    
+    statusCode: <number>, statusMessage: <string>, headers: <Object>
+    发送一个响应头给请求。 状态码是一个三位数的HTTP状态码，如404。 最后一个参数 headers是响应头。 第二个参数 statusMessage是可选的状态描述。
+
+(13)response.socket
+    引用底层socket。 通常用户不想访问此属性。 特别地，由于协议解析器连接到socket的方式，socket将不会发出'readable'事件。 在response.end()之后，该属性为null。 也可以通过response.connection来访问socket.
+
+```javascript
+    const http = require('http');
+    const server = http.createServer((req, res) => {
+      const ip = res.socket.remoteAddress;
+      const port = res.socket.remotePort;
+      res.end(`你的IP地址是 ${ip}，你的源端口是 ${port}。`);
+    }).listen(3000);
+```
+
+<sup>[(back to table of contents)](#request-and-response)</sup>
 
 
 

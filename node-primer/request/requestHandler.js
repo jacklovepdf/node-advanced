@@ -15,9 +15,11 @@ function start(req, res) {
         '<input type="submit">' +
         '</form>' +
         '</body></html>';
-
+    var ip = res.socket.remoteAddress;
+    var port = res.socket.remotePort;
     res.write(postHTML);
-    res.end();
+    res.end(`你的IP地址是 ${ip}，你的源端口是 ${port}。`);
+
 }
 
 function show(req, res) {
