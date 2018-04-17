@@ -15,6 +15,7 @@ some basic concept and practice of node, review now!
 - [Url](#url)
 - [Http](#http)
 - [Request and Response](#request-and-response)
+- [Child process](#child-process)
 - [NetWork](#network)
 - [OS](#os)
 - [Path](#path)
@@ -216,7 +217,7 @@ nodejs是单线程的，它通过事件循环来实现并行操作；
     
  3. error事件
  
-    EventEmitter 定义了一个特殊的事件 error，它包含了错误的语义，我们在遇到 异常的时候通常会触发 error 事件。当 error 被触发时，EventEmitter 规定如果没有响 应的监听器，Node.js 会把它当作异常，退出程序并输出错误信息。我们一般要为会触发 error 事件的对象设置监听器，避免遇到错误后整个程序崩溃。
+    EventEmitter 定义了一个特殊的事件 error，它包含了错误的语义，我们在遇到 异常的时候通常会触发error事件。当error被触发时，EventEmitter规定如果没有响应的监听器，Node.js会把它当作异常，退出程序并输出错误信息。我们一般要为会触发error事件的对象设置监听器，避免遇到错误后整个程序崩溃。
     
 <sup>[(back to table of contents)](#event-loop-event-emitter)</sup>
 
@@ -566,7 +567,6 @@ url模块提供了两套API来处理URLs：一个是Node.js遗留的特有的API
 ```javascript
     var server = http.createServer(function(req, res) {});
     server.listener(8000);
-    
 ```
 
 2. http.get(options[, callback]) 与 http.request(options[, callback])
@@ -751,8 +751,35 @@ response.write()首次被调用时，会发送缓冲的响应头信息和响应�
 
 
 
+## Child process
+    child_process模块提供了衍生子进程的功能, ChildProcess 类的实例实现了Node.js EventEmitter的API，代表衍生的子进程, 允许父进程注册监听器函数，在子进程生命周期期间，当特定的事件发生时会调用这些函数。
+    ChildProcess 的实例不被直接创建。 而是使用 child_process.spawn()、child_process.exec()、child_process.execFile() 或 child_process.fork() 方法创建 ChildProcess 实例。
 
+1. child_process.exec(command[, options][, callback])
+    command: <string> 要运行的命令，用空格分隔参数; options: <Object>; callback: <Function> 当进程终止时调用，并带上输出。
+    callback参数，error: <Error>, stdout: <string> | <Buffer>, stderr: <string> | <Buffer>
+    
+2. child_process.spawn(command[, args][, options])
+    child_process.spawn 使用指定的命令行参数创建新进程;
+    command： 将要运行的命令, args： Array 字符串参数数组, options: Object;
+   
+3. child_process.fork(modulePath[, args][, options])
+    child_process.fork 是 spawn() 方法的特殊形式，用于创建进程，语法格式如下：
+    modulePath： String，将要在子进程中运行的模块, args： Array 字符串参数数组, options：Object;
+```javascript
+    // support.js
+    console.log("进程 " + process.argv[2] + " 执行。" );
+    // master.js
+    const fs = require('fs');
+    const child_process = require('child_process');
+     
+    for(var i=0; i<3; i++) {
+       var worker_process = child_process.fork("support.js", [i]);    
+     
+       worker_process.on('close', function (code) {
+          console.log('子进程已退出，退出码 ' + code);
+       });
+    }
+```
 
-
-
-
+<sup>[(back to table of contents)](#child-process)</sup>
