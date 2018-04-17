@@ -1,0 +1,12 @@
+{
+  "name": "child_process_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node app.js"
+  },
+  "author": "jacklovepdf",
+  "license": "MIT"
+}
