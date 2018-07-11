@@ -783,3 +783,42 @@ response.write()首次被调用时，会发送缓冲的响应头信息和响应�
 ```
 
 <sup>[(back to table of contents)](#child-process)</sup>
+
+
+
+## Path
+
+1.path.join and path.resolve
+
+  path.join的作用是通过平台特定的分界符来连接路径片段；path.resolve的作用是Resolves all the path segments into an absolute path.
+
+```javascript
+    const path = require("path");
+
+    let path1 = path.join('/foo', 'bar', 'baz/zxcv', 'abcd');
+    console.log("path1=====>", path1);
+    // mac: "/foo/bar/baz/zxcv/abcd"
+    // win:
+
+    let path2 = path.join('foo', 'bar', 'baz/zxcv', '../abcd');
+    console.log("path2=====>", path2);
+    // mac: "foo/bar/baz/abcd"
+    // win:
+
+    let path3 = path.resolve('/foo', 'bar', 'baz/zxcv', 'abcd');
+    console.log("path3=====>", path3);
+    // mac: "/foo/bar/baz/zxcv/abcd"
+    // win:
+
+    let path4 = path.resolve('foo', 'bar', 'baz/zxcv', '../abcd');
+    console.log("path4=====>", path4);
+    // mac: "/Users/linchengyong/jacklin/project/node-advanced/node-primer/foo/bar/baz/abcd"
+    // win:
+
+    let path5 = path.resolve('foo', 'bar', '/baz/zxcv', '../abcd');
+    console.log("path5=====>", path5);
+    // mac: "/baz/abcd"
+    // win:
+```
+
+<sup>[(back to table of contents)](#path)</sup>
