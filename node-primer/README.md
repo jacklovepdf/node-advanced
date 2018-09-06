@@ -793,6 +793,7 @@ response.write()首次被调用时，会发送缓冲的响应头信息和响应�
   path.join的作用是通过平台特定的分界符来连接路径片段；path.resolve的作用是Resolves all the path segments into an absolute path.
 
 ```javascript
+    //当前工作目录为： /Users/linchengyong/jacklin/project/node-advanced/node-primer
     const path = require("path");
 
     let path1 = path.join('/foo', 'bar', 'baz/zxcv', 'abcd');

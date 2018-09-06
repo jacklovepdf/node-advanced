@@ -41,3 +41,8 @@ console.log(process.pid);
 console.log(process.arch);
 
 console.log("程序执行结束");
+
+const cwdpath = process.cwd();
+console.log("cwdpath======>", cwdpath, "__dirname=====>", __dirname);
+// "/Users/linchengyong/jacklin/project/node-advanced/node-primer"
+// "/Users/linchengyong/jacklin/project/node-advanced/node-primer/global"
