@@ -3,7 +3,7 @@ const router = require('./src/router');
 
 
 const server = http.createServer(function (req, res) {
-    res.writeHead(200, {'content-Type': 'text/html'});
+    res.writeHead(200, {'content-Type': 'text/json'});
     res.end('<h1>hello world</h1>');
 });
 

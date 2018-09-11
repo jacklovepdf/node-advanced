@@ -1,6 +1,8 @@
 /**
+ * 事件分发以及对应回调执行是同步的；
  * Created by chengyong.lin on 18/4/2.
  */
+
 
 // 引入 events 模块
 var events = require('events');
