@@ -41,7 +41,7 @@
    buffer表示的固定内存分配的全局对象（类似于字节数组），主要用于node二进制数据的处理；
    eg.可以用来对数据进行编码转换: [buffer](./node-primer/buffer/index.js)
 
-## node中的重要api
+## 命令行工具
 
 
 
