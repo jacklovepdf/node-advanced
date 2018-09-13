@@ -1,10 +1,11 @@
 # 了不起的node.js笔记
+
   some basic practice and demo to learn node
 
 ## Table of Contents
 
 - [node中的js](#node-javascript)
-- [node中的重要api](#node-api)
+- [命令行工具](#node-api)
 - [tcp以及http](#tcp-http)
 - [web开发](#node-web)
 - [数据库](#node-db)
@@ -41,7 +42,19 @@
    buffer表示的固定内存分配的全局对象（类似于字节数组），主要用于node二进制数据的处理；
    eg.可以用来对数据进行编码转换: [buffer](./node-primer/buffer/index.js)
 
-## 命令行工具
+## 命令行工具-cli(stdio以及fs)
+
+1.process.stdio
+  除非有io等待，否则node程序总会在执行完毕之后自动退出；
+
+
+
+2.fs
+  fs是node核心模块中唯一一个同时提供同步和异步api的模块;
+
+3.stream
+  当持续不断的对数据进行读写操作的时候，流的概念就产生了，在node中有很多流，比如文件流，http请求，tcp套接字等等；
+  流中一个重要的概念是编码问题，对流设置编码会得到编码之后的字符串，而不是原始的buffer作为事件的参数；
 
 
 
