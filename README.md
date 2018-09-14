@@ -46,7 +46,29 @@
 
 1.process.stdio
   除非有io等待，否则node程序总会在执行完毕之后自动退出；
+```
+    process.stdin.resume() //标准输入流默认是暂停 (pause) 的，所以必须要调用 process.stdin.resume() 来恢复接收:
 
+    process.stdin.setEncoding('utf8'); //设置流的编码
+
+    process.stdout.write(); // 向标准输出写入若干字符
+
+    process.argv //返回当前命令行所有参数，为数组;
+
+    process.cwd() //返回当前进程的工作目录;
+
+    process.env //获取当前系统环境变量对象；
+
+    process.exit([code]) // 终止当前进程并返回给定的 code;
+
+    process.pid //获得当前进程的pid
+
+    process.kill(pid, [signal]) //结束对应某pid的进程并发送一个信号
+
+    process.title //获取或设置当前进程的标题名称
+
+    process.nextTick(callback)//表示在事件循环（EventLoop）的下一次循环中调用 callback 回调函数。
+```
 
 
 2.fs
