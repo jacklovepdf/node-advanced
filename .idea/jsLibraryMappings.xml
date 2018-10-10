@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <includedPredefinedLibrary name="ECMAScript 6" />
-    <excludedPredefinedLibrary name="node-learn/node-demo/lesson10/node_modules" />
-    <excludedPredefinedLibrary name="node-learn/node-demo/lesson11/node_modules" />
-    <excludedPredefinedLibrary name="node-learn/node-demo/lesson4/node_modules" />
-    <excludedPredefinedLibrary name="node-learn/node-demo/lesson5/node_modules" />
-    <excludedPredefinedLibrary name="node-learn/node-demo/lesson6/node_modules" />
-    <excludedPredefinedLibrary name="node-learn/node-demo/lesson7/node_modules" />
-    <excludedPredefinedLibrary name="node-learn/node-demo/lesson8/node_modules" />
-    <excludedPredefinedLibrary name="node-learn/node-demo/lesson9/node_modules" />
-    <excludedPredefinedLibrary name="node-learn/node-primer/demo1/node_modules" />
-    <excludedPredefinedLibrary name="node-learn/node-primer/demo2/node_modules" />
-    <excludedPredefinedLibrary name="node-learn/node-primer/demo3/node_modules" />
+    <includedPredefinedLibrary name="Node.js Core" />
   </component>
 </project>

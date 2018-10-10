@@ -105,12 +105,65 @@
 
 
     2.http
+    http协议是构建在请求和响应的基础上的；对应的是nodejs中的http.ServerRequest和http.ServerResponse两中类型的对象；当用户代理浏览网站的时候，
+    会创建一个请求，该请求通过tcp协议发送给web服务器；
+
+    2.1 请求包括请求头和请求体；
+    (1) 请求对象包含的属性
+
+    属性        |       含义              |
+    req.url    |      包括主机名后所有内容  |
+    req.method |      请求方法            |
 
 
+    2.2 响应包括响应头和响应体；
+    (1) 响应头信息
+
+    响应头信息字段       |           含义                              |
+    ------------       |:          ----:                            |
+    'Content-Type'     |           响应内容(默认为text/plain)         |
+    'Transfer-Encoding'|           传输编码(默认为chunked)            |
+    'Connection'       |           连接(默认值为keep-alive)           |
+
+
+ ```javascript
+    // {'Transfer-Encoding': 'chunked'}
+    http.createServer(function(req, res){
+        res.writeHead(200);
+        res.write('hello world!');
+        setTimeout(function(){
+            res.end('hello');
+        }, 200)
+    })
+ ```
+    **注意**： 由于node天生的异步机制，在调用end之前，我们可以多次调用write方法来发送数据，为了尽可能响应客户端，在首次调用write方法时，node会把所有的
+    响应头信息和第一块数据（'hello world!'）发送出去；发送数据块的方式在涉及文件系统的时候会非常高效;
+    demo详见：[http-chunked](./node-primer/http-demo/file-chunked.js)
 
 ## web开发
 
     1. connect
+
+        绝大部分的网络应用都需要完成一些类似的操作，这些的操作你一定不想每次都基于原始的api实现，connect是一套基于http服务器的工具集；它提供了一套新的组织
+    代码的方式来与请求响应对象交互，称做中间件（middleware）,**这样有利于代码的复用**；
+
+
+```javascript
+    connect中间件，记录超时日志；
+    module.exports = function(opt = {}){
+        var time = opt.time || 100;
+        let timer = setTimeout(function(){
+            console.log("timeout:", req.url, req.method);
+        }, time);
+
+        let end = res.end;
+        res.end = function(){
+            res.end = end;
+            res.end(chunk, encoding);
+            clearTimeout(timer);
+        }
+    }
+```
 
 
     2.express
