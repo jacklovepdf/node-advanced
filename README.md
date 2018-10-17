@@ -106,14 +106,16 @@
 
     2.http
     http协议是构建在请求和响应的基础上的；对应的是nodejs中的http.ServerRequest和http.ServerResponse两中类型的对象；当用户代理浏览网站的时候，
-    会创建一个请求，该请求通过tcp协议发送给web服务器；
+    会创建一个请求，该请求通过tcp协议发送给web服务器;
+
 
     2.1 请求包括请求头和请求体；
-    (1) 请求对象包含的属性
+    (1) 请求对象包含的属性(<http.IncomingMessage>)
 
-    属性        |       含义              |
-    req.url    |      包括主机名后所有内容  |
-    req.method |      请求方法            |
+    属性         |       含义              |
+    req.url     |      包括主机名后所有内容  |
+    req.method  |      请求方法            |
+    req.headers |     请求头信息          |
 
 
     2.2 响应包括响应头和响应体；
@@ -124,6 +126,10 @@
     'Content-Type'     |           响应内容(默认为text/plain)         |
     'Transfer-Encoding'|           传输编码(默认为chunked)            |
     'Connection'       |           连接(默认值为keep-alive)           |
+
+    (2) 响应对象（<http.ServerResponse>）
+
+
 
 
  ```javascript

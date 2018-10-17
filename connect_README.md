@@ -21,6 +21,11 @@
 ```
 
 ```
-
+    proto.use = function use(route, fn) {
+      //use方法本质上只做了一件事，就是将中间件压入app的stack数组中
+      this.stack.push({ route: path, handle: handle });
+      // 链式调用
+      return this;
+    };
 ```
 
