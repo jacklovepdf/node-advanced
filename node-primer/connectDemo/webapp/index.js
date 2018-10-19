@@ -18,7 +18,7 @@ connectHello =  function (request, response, next) {
 };
 
 logger = function (request, response, next) {
-    console.log("11111");
+    console.log("request.headers", request.headers);
     next();
 };
 
