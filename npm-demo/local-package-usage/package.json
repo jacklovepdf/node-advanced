@@ -1,0 +1,20 @@
+{
+  "name": "local-package-usage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "config": "file:/Users/linchengyong/jacklin/project/node-advanced/npm-demo/config"
+  },
+  "keywords": [
+    "use",
+    "local",
+    "npm",
+    "package"
+  ],
+  "author": "jack lin",
+  "license": "MIT"
+}

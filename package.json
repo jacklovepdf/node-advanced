@@ -1,0 +1,19 @@
+{
+  "name": "advanced",
+  "version": "1.0.0",
+  "description": "some basic practice and demo to learn node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacklovepdf/node-advanced.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacklovepdf/node-advanced/issues"
+  },
+  "homepage": "https://github.com/jacklovepdf/node-advanced#readme"
+}

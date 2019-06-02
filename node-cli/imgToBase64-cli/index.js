@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 const path = require('path');
 const fs = require('fs');
 const imgExt = {
@@ -9,6 +10,7 @@ if(typeof process.argv[2] === "string"){
     let imgPath = process.argv[2],
         ext = path.extname(imgPath);
 
+    console.log('imgPath======>', imgPath);
     if(imgExt[ext]){
         let imageData = fs.readFileSync(imgPath),
             extName = ext.slice(1),

@@ -7,7 +7,6 @@ var fs = require("fs");
 var formidable = require("formidable");
 
 function start(response, request) {
-    console.log("Request handler 'start' was called.");
     var body = '<html>'+
         '<head>'+
         '<meta http-equiv="Content-Type" '+

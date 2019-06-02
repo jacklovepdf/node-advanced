@@ -115,7 +115,7 @@
     属性         |       含义              |
     req.url     |      包括主机名后所有内容  |
     req.method  |      请求方法            |
-    req.headers |     请求头信息          |
+    req.headers |      请求头信息          |
 
 
     2.2 响应包括响应头和响应体；
@@ -129,8 +129,18 @@
 
     (2) 响应对象（<http.ServerResponse>）
 
+    响应对象属性方法                                     |           含义                                    |
+    ------------                                       |:          ----:                                  |
+    write(chunk[, encoding][, callback])               |           可被多次调用，以便提供连续的响应主体片段     |
+    setHeader(name, value)                             |           为一个隐式的响应头设置值                   |
+    end([data][, encoding][, callback])                |           每次响应都必须调用 response.end() 方法     |
+    connection                                         |           <net.Socket>                            |
+    socket                                             |           引用底层socket(res.socket.remoteAddress) |
 
 
+    **Note**: 1. response.setHeader() 设置的响应头会与 response.writeHead() 设置的响应头合并，且 response.writeHead() 的优先。
+    2. chunk 可以是一个字符串或一个 buffer。 如果 chunk 是一个字符串，则第二个参数指定如何将它编码成一个字节流。 encoding 默认为 'utf8'。
+       当数据块被刷新时，callback 会被调用。
 
  ```javascript
     // {'Transfer-Encoding': 'chunked'}

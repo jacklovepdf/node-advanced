@@ -1,0 +1,124 @@
+[2019-03-07T11:47:57.535] [INFO] info - [SDK-INFO] sdk init url: file:///Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/simulator-sdk/dist/index.html?windowId=1
+[2019-03-07T11:47:57.853] [INFO] info - [SDK-INFO]mini-program解压成功 /Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/simulator-sdk/temFiles/dist/public/60d284dceb13991d87c8d2996fdb9b18
+[2019-03-07T11:47:58.079] [INFO] info - 处理域名白名单接口调用失败
+[2019-03-07T11:47:58.316] [INFO] info - initIpc mainWindow object
+[2019-03-07T11:47:58.911] [INFO] info - nativeSharedObject.machineArgs====> { appType: [Getter/Setter],
+  resultPath: [Getter/Setter],
+  sourcePath: [Getter/Setter],
+  communicationChannel: [Getter/Setter] }
+[2019-03-07T11:47:59.428] [INFO] info - nativeSharedObject.machineArgs====> { appType: [Getter/Setter],
+  resultPath: [Getter/Setter],
+  sourcePath: [Getter/Setter],
+  communicationChannel: [Getter/Setter] }
+[2019-03-07T11:48:07.031] [INFO] info - imgPath====> /Users/linchengyong/bytedance/project/headless_micro_app/dist/image.jpeg
+[2019-03-07T11:48:07.033] [INFO] info - going to close mainWindow 1
+[2019-03-07T11:48:07.043] [INFO] info - going to close mainWindow 1
+[2019-03-07T11:48:07.048] [INFO] info - mainWindow closed
+[2019-03-07T11:48:07.049] [INFO] info - projectPath /Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/simulator-sdk/temFiles/dist/public/60d284dceb13991d87c8d2996fdb9b18
+[2019-03-07T12:05:06.293] [INFO] info - [SDK-INFO] sdk init url: file:///Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/simulator-sdk/dist/index.html?windowId=1
+[2019-03-07T12:05:06.642] [INFO] info - [SDK-INFO]mini-program解压成功 /Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/simulator-sdk/temFiles/dist/public/60d284dceb13991d87c8d2996fdb9b18
+[2019-03-07T12:05:06.716] [INFO] info - 处理域名白名单接口调用失败
+[2019-03-07T12:05:07.173] [INFO] info - initIpc mainWindow object
+[2019-03-07T12:05:07.751] [INFO] info - nativeSharedObject.machineArgs====> { appType: [Getter/Setter],
+  resultPath: [Getter/Setter],
+  sourcePath: [Getter/Setter],
+  communicationChannel: [Getter/Setter] }
+[2019-03-07T12:05:08.308] [INFO] info - nativeSharedObject.machineArgs====> { appType: [Getter/Setter],
+  resultPath: [Getter/Setter],
+  sourcePath: [Getter/Setter],
+  communicationChannel: [Getter/Setter] }
+[2019-03-07T12:05:15.861] [INFO] info - imgPath====> /Users/linchengyong/bytedance/project/headless_micro_app/dist/image.jpeg
+[2019-03-07T12:05:15.862] [INFO] info - going to close mainWindow 1
+[2019-03-07T12:05:15.964] [INFO] info - going to close mainWindow 1
+[2019-03-07T12:05:16.070] [INFO] info - mainWindow closed
+[2019-03-07T12:05:16.070] [INFO] info - projectPath /Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/simulator-sdk/temFiles/dist/public/60d284dceb13991d87c8d2996fdb9b18
+[2019-03-13T11:44:52.167] [INFO] info - [SDK-INFO] sdk init url: file:///Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/simulator-sdk/dist/index.html?windowId=1
+[2019-03-13T11:44:52.538] [INFO] info - [SDK-INFO]mini-program解压成功 /Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/simulator-sdk/temFiles/dist/public/60d284dceb13991d87c8d2996fdb9b18
+[2019-03-13T11:44:52.810] [INFO] info - 处理域名白名单接口调用失败
+[2019-03-13T11:44:57.033] [INFO] info - initIpc mainWindow object
+[2019-03-13T11:44:57.639] [INFO] info - nativeSharedObject.machineArgs====> { appType: [Getter/Setter],
+  resultPath: [Getter/Setter],
+  sourcePath: [Getter/Setter],
+  communicationChannel: [Getter/Setter] }
+[2019-03-13T11:44:58.187] [INFO] info - nativeSharedObject.machineArgs====> { appType: [Getter/Setter],
+  resultPath: [Getter/Setter],
+  sourcePath: [Getter/Setter],
+  communicationChannel: [Getter/Setter] }
+[2019-03-13T11:45:05.774] [INFO] info - imgPath====> /Users/linchengyong/bytedance/project/headless_micro_app/dist/image.jpeg
+[2019-03-13T11:45:05.776] [INFO] info - going to close mainWindow 1
+[2019-03-13T11:45:05.878] [INFO] info - going to close mainWindow 1
+[2019-03-13T11:45:05.993] [INFO] info - mainWindow closed
+[2019-03-13T11:45:05.994] [INFO] info - projectPath /Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/simulator-sdk/temFiles/dist/public/60d284dceb13991d87c8d2996fdb9b18
+[2019-03-13T11:45:18.148] [INFO] info - [SDK-INFO] sdk init url: file:///Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/simulator-sdk/dist/index.html?windowId=1
+[2019-03-13T11:45:18.459] [INFO] info - [SDK-INFO]mini-program解压成功 /Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/simulator-sdk/temFiles/dist/public/60d284dceb13991d87c8d2996fdb9b18
+[2019-03-13T11:45:18.508] [INFO] info - 处理域名白名单接口调用失败
+[2019-03-13T11:45:18.786] [INFO] info - initIpc mainWindow object
+[2019-03-13T11:45:19.253] [INFO] info - nativeSharedObject.machineArgs====> { appType: [Getter/Setter],
+  resultPath: [Getter/Setter],
+  sourcePath: [Getter/Setter],
+  communicationChannel: [Getter/Setter] }
+[2019-03-13T11:45:19.598] [INFO] info - nativeSharedObject.machineArgs====> { appType: [Getter/Setter],
+  resultPath: [Getter/Setter],
+  sourcePath: [Getter/Setter],
+  communicationChannel: [Getter/Setter] }
+[2019-03-13T11:45:27.384] [INFO] info - imgPath====> /Users/linchengyong/bytedance/project/headless_micro_app/dist/image.jpeg
+[2019-03-13T11:45:27.392] [INFO] info - going to close mainWindow 1
+[2019-03-13T11:45:27.394] [INFO] info - going to close mainWindow 1
+[2019-03-13T11:45:27.399] [INFO] info - mainWindow closed
+[2019-03-13T11:45:27.400] [INFO] info - projectPath /Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/simulator-sdk/temFiles/dist/public/60d284dceb13991d87c8d2996fdb9b18
+[2019-03-13T17:05:27.279] [ERROR] info - machine captureScreen error: Error: Command failed: /Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/headless_micro_app/node_modules/electron /Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/headless_micro_app/dist/main.js headless_micro_app /Users/linchengyong/bytedance/project/headless_micro_app/dist/ /Users/linchengyong/bytedance/project/headless_micro_app/demo/tmapp.zip
+/bin/sh: /Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/headless_micro_app/node_modules/electron: is a directory
+
+    at ChildProcess.exithandler (child_process.js:273:12)
+    at ChildProcess.emit (events.js:180:13)
+    at maybeClose (internal/child_process.js:936:16)
+    at Socket.stream.socket.on (internal/child_process.js:353:11)
+    at Socket.emit (events.js:180:13)
+    at Pipe._handle.close [as _onclose] (net.js:541:12)
+[2019-03-13T17:07:30.260] [ERROR] info - machine captureScreen error: Error: Command failed: /Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/headless_micro_app/node_modules/electron/index.js /Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/headless_micro_app/dist/main.js headless_micro_app /Users/linchengyong/bytedance/project/headless_micro_app/dist/ /Users/linchengyong/bytedance/project/headless_micro_app/demo/tmapp.zip
+/bin/sh: /Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/headless_micro_app/node_modules/electron/index.js: Permission denied
+
+    at ChildProcess.exithandler (child_process.js:273:12)
+    at ChildProcess.emit (events.js:180:13)
+    at maybeClose (internal/child_process.js:936:16)
+    at Socket.stream.socket.on (internal/child_process.js:353:11)
+    at Socket.emit (events.js:180:13)
+    at Pipe._handle.close [as _onclose] (net.js:541:12)
+[2019-03-13T17:08:05.241] [INFO] info - [SDK-INFO] sdk init url: file:///Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/simulator-sdk/dist/index.html?windowId=1
+[2019-03-13T17:08:05.601] [INFO] info - [SDK-INFO]mini-program解压成功 /Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/simulator-sdk/temFiles/dist/public/60d284dceb13991d87c8d2996fdb9b18
+[2019-03-13T17:08:05.991] [INFO] info - initIpc mainWindow object
+[2019-03-13T17:08:06.258] [INFO] info - 处理域名白名单接口调用失败
+[2019-03-13T17:08:06.521] [INFO] info - nativeSharedObject.machineArgs====> { appType: [Getter/Setter],
+  resultPath: [Getter/Setter],
+  sourcePath: [Getter/Setter],
+  communicationChannel: [Getter/Setter] }
+[2019-03-13T17:08:07.186] [INFO] info - nativeSharedObject.machineArgs====> { appType: [Getter/Setter],
+  resultPath: [Getter/Setter],
+  sourcePath: [Getter/Setter],
+  communicationChannel: [Getter/Setter] }
+[2019-03-13T17:08:14.664] [INFO] info - imgPath====> /Users/linchengyong/bytedance/project/headless_micro_app/dist/image.jpeg
+[2019-03-13T17:08:14.666] [INFO] info - going to close mainWindow 1
+[2019-03-13T17:08:14.769] [INFO] info - going to close mainWindow 1
+[2019-03-13T17:08:14.883] [INFO] info - mainWindow closed
+[2019-03-13T17:08:14.884] [INFO] info - projectPath /Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/simulator-sdk/temFiles/dist/public/60d284dceb13991d87c8d2996fdb9b18
+[2019-03-13T17:08:14.977] [INFO] info - 
+[2019-03-14T14:47:05.896] [INFO] info - [SDK-INFO] sdk init catch err: ReferenceError: userInfo is not defined
+    at SDK.initSharedObject (/Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/simulator-sdk/dist/sdk.js:10038:23)
+    at SDK.init (/Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/simulator-sdk/dist/sdk.js:9754:18)
+    at /Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/headless_micro_app/dist/main.js:1:2750
+    at Generator.next (<anonymous>)
+    at t (/Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/headless_micro_app/dist/main.js:1:1518)
+    at c (/Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/headless_micro_app/dist/main.js:1:1728)
+    at /Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/headless_micro_app/dist/main.js:1:1787
+    at new Promise (<anonymous>)
+    at /Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/headless_micro_app/dist/main.js:1:1669
+    at m (/Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/headless_micro_app/dist/main.js:1:2794)
+    at /Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/headless_micro_app/dist/main.js:1:2867
+    at App.l.on (/Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/headless_micro_app/dist/main.js:1:2889)
+    at emitTwo (events.js:131:20)
+    at App.emit (events.js:214:7)
+[2019-03-14T14:47:06.196] [INFO] info - [SDK-INFO]mini-program解压成功 /Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/simulator-sdk/temFiles/dist/public/60d284dceb13991d87c8d2996fdb9b18
+[2019-03-14T14:47:06.263] [INFO] info - 处理域名白名单接口调用失败
+[2019-03-14T14:47:26.066] [INFO] info - mainWindow closed
+[2019-03-14T14:47:26.067] [INFO] info - projectPath /Users/linchengyong/jacklin/project/node-advanced/node-demo/headless_micro_app_usage/node_modules/@byted/simulator-sdk/temFiles/dist/public/60d284dceb13991d87c8d2996fdb9b18
+[2019-03-14T15:11:32.162] [INFO] info - 

@@ -1,0 +1,14 @@
+{
+  "name": "npm-link-module",
+  "version": "1.0.0",
+  "description": "a module to test npm link",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "jacklovepdf": "main.js"
+  },
+  "author": "jack lin",
+  "license": "MIT"
+}

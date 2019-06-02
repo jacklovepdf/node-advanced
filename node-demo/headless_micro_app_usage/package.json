@@ -1,0 +1,20 @@
+{
+  "name": "headless_micro_app_usage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bytedance"
+  ],
+  "author": "jacklin",
+  "license": "MIT",
+  "devDependencies": {
+    "@byted/headless_micro_app": "^1.0.0"
+  },
+  "dependencies": {
+    "electron": "^4.0.8"
+  }
+}

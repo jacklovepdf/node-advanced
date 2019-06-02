@@ -1,10 +1,13 @@
 {
-  "name": "imgtobase64",
+  "name": "@jacklovepdf/imgtobase64",
   "version": "1.0.0",
   "description": "transfer image to base64 url",
   "main": "index.js",
   "scripts": {
     "test": "npm run test"
+  },
+  "bin": {
+    "tf": "./index.js"
   },
   "keywords": [
     "images",
