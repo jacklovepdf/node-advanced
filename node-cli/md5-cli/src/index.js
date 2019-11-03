@@ -3,8 +3,9 @@
 var md5 = require('md5');
 var colors = require('colors');
 var program = require('commander');
+var pkg = require("../package.json")
 program
-	.version('v' + require('../package.json').version)
+	.version(pkg.version, '-v, --version')
 	.description('a md5 cli tool.')
 	.arguments('[string]')
 	.option('-s, --string', 'input a string')

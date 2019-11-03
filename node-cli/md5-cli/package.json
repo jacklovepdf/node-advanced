@@ -7,7 +7,7 @@
     "test": "npm test"
   },
   "bin": {
-    "md5": "./src/index.js"
+    "md5-cli": "./src/index.js"
   },
   "keywords": [
     "md5",

@@ -1,4 +1,4 @@
-# 了不起的node.js笔记
+# node_advanced
 
   some basic practice and demo to learn node
 
@@ -139,7 +139,7 @@
 
 
     **Note**: 1. response.setHeader() 设置的响应头会与 response.writeHead() 设置的响应头合并，且 response.writeHead() 的优先。
-    2. chunk 可以是一个字符串或一个 buffer。 如果 chunk 是一个字符串，则第二个参数指定如何将它编码成一个字节流。 encoding 默认为 'utf8'。
+    1. chunk 可以是一个字符串或一个 buffer。 如果 chunk 是一个字符串，则第二个参数指定如何将它编码成一个字节流。 encoding 默认为 'utf8'。
        当数据块被刷新时，callback 会被调用。
 
  ```javascript
